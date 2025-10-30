@@ -1,0 +1,23 @@
+[0.578s] Invoking command in '/home/uditr/mybot_ws/src/mybot_py_programs': PYTHONPATH=/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_py_programs build --build-base /home/uditr/mybot_ws/build/mybot_py_programs/build install --record /home/uditr/mybot_ws/build/mybot_py_programs/install.log --single-version-externally-managed install_data
+[0.785s] running egg_info
+[0.786s] writing ../../build/mybot_py_programs/mybot_py_programs.egg-info/PKG-INFO
+[0.786s] writing dependency_links to ../../build/mybot_py_programs/mybot_py_programs.egg-info/dependency_links.txt
+[0.786s] writing entry points to ../../build/mybot_py_programs/mybot_py_programs.egg-info/entry_points.txt
+[0.786s] writing requirements to ../../build/mybot_py_programs/mybot_py_programs.egg-info/requires.txt
+[0.786s] writing top-level names to ../../build/mybot_py_programs/mybot_py_programs.egg-info/top_level.txt
+[0.788s] reading manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+[0.789s] writing manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+[0.789s] running build
+[0.789s] running build_py
+[0.789s] running install
+[0.789s] running install_lib
+[0.791s] running install_data
+[0.791s] running install_egg_info
+[0.792s] removing '/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info' (and everything under it)
+[0.792s] Copying ../../build/mybot_py_programs/mybot_py_programs.egg-info to /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info
+[0.793s] running install_scripts
+[0.811s] Installing simple_parameter script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[0.811s] Installing simple_publisher script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[0.811s] Installing simple_subscriber script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[0.811s] writing list of installed files to '/home/uditr/mybot_ws/build/mybot_py_programs/install.log'
+[0.832s] Invoked command in '/home/uditr/mybot_ws/src/mybot_py_programs' returned '0': PYTHONPATH=/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_py_programs build --build-base /home/uditr/mybot_ws/build/mybot_py_programs/build install --record /home/uditr/mybot_ws/build/mybot_py_programs/install.log --single-version-externally-managed install_data

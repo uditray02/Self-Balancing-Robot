@@ -1,0 +1,24 @@
+[0.327s] Invoking command in '/home/uditr/mybot_ws/build/mybot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_controller -- -j8 -l8
+[3.754s] Invoked command in '/home/uditr/mybot_ws/build/mybot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_controller -- -j8 -l8
+[3.782s] Invoking command in '/home/uditr/mybot_ws/build/mybot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_controller
+[3.838s] -- Install configuration: ""
+[3.841s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/config
+[3.841s] -- Installing: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/config/mybot_controllers.yaml
+[3.841s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/launch
+[3.842s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/launch/controller.launch.py
+[3.843s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/ament_index/resource_index/package_run_dependencies/mybot_controller
+[3.843s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/ament_index/resource_index/parent_prefix_path/mybot_controller
+[3.843s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/ament_prefix_path.sh
+[3.843s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/ament_prefix_path.dsv
+[3.844s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/path.sh
+[3.844s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/path.dsv
+[3.917s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.bash
+[3.918s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.sh
+[3.918s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.zsh
+[3.918s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.dsv
+[3.918s] -- Installing: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.dsv
+[3.955s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/ament_index/resource_index/packages/mybot_controller
+[3.955s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/cmake/mybot_controllerConfig.cmake
+[3.956s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/cmake/mybot_controllerConfig-version.cmake
+[3.956s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.xml
+[4.742s] Invoked command in '/home/uditr/mybot_ws/build/mybot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_controller

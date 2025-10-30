@@ -1,0 +1,18 @@
+joy_teleop:
+  ros__parameters:
+    move:
+      type: topic
+      interface_type: geometry_msgs/msg/TwistStamped
+      topic_name: mybot_controller/cmd_vel
+
+      deadman_buttons: []  #button number for the robot to move just like the kuka robot is having a button to move any robot by teaching.
+      axis_mappings:       #indicates which keys of the joystick we wanna implement to map with the velocity commands of the robot
+        twist-linear-x:   #publish a message along the x-direction of the linear velocity
+          axis: 1
+          scale: 1.0
+          offset: 0.0
+        twist-angular-z:
+          axis: 3
+          scale: 1.0
+          offset: 0.0
+

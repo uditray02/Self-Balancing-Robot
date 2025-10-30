@@ -1,0 +1,41 @@
+[2.685s] Invoking command in '/home/uditr/mybot_ws/build/mybot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_controller -- -j8 -l8
+[6.323s] Built target ament_cmake_python_symlink_mybot_controller
+[6.554s] running egg_info
+[6.555s] writing mybot_controller.egg-info/PKG-INFO
+[6.555s] writing dependency_links to mybot_controller.egg-info/dependency_links.txt
+[6.555s] writing top-level names to mybot_controller.egg-info/top_level.txt
+[6.557s] reading manifest file 'mybot_controller.egg-info/SOURCES.txt'
+[6.558s] writing manifest file 'mybot_controller.egg-info/SOURCES.txt'
+[6.577s] Built target ament_cmake_python_build_mybot_controller_egg
+[6.585s] Invoked command in '/home/uditr/mybot_ws/build/mybot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_controller -- -j8 -l8
+[6.601s] Invoking command in '/home/uditr/mybot_ws/build/mybot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_controller
+[6.606s] -- Install configuration: ""
+[6.661s] -- Execute custom install script
+[6.675s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/pythonpath.sh
+[6.786s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/pythonpath.dsv
+[6.788s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/local/lib/python3.10/dist-packages/mybot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[6.789s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/local/lib/python3.10/dist-packages/mybot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.789s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/local/lib/python3.10/dist-packages/mybot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.810s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/local/lib/python3.10/dist-packages/mybot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[6.820s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/local/lib/python3.10/dist-packages/mybot_controller/__init__.py
+[6.820s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/local/lib/python3.10/dist-packages/mybot_controller/simple_controller.py
+[6.922s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/config/mybot_controllers.yaml
+[6.944s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/launch/controller.launch.py
+[6.947s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/lib/mybot_controller/simple_controller.py
+[6.966s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/ament_index/resource_index/package_run_dependencies/mybot_controller
+[6.999s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/ament_index/resource_index/parent_prefix_path/mybot_controller
+[7.043s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/ament_prefix_path.sh
+[7.088s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/ament_prefix_path.dsv
+[7.143s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/path.sh
+[7.210s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/path.dsv
+[7.265s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.bash
+[7.309s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.sh
+[7.365s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.zsh
+[7.376s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.dsv
+[7.376s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.dsv
+[7.420s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/ament_index/resource_index/packages/mybot_controller
+[7.421s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/cmake/mybot_controllerConfig.cmake
+[7.431s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/cmake/mybot_controllerConfig-version.cmake
+[7.432s] -- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.xml
+[7.559s] Listing '/home/uditr/mybot_ws/install/mybot_controller/local/lib/python3.10/dist-packages/mybot_controller'...
+[7.573s] Invoked command in '/home/uditr/mybot_ws/build/mybot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_controller

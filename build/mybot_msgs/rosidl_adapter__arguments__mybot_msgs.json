@@ -1,0 +1,7 @@
+{
+  "package_name": "mybot_msgs",
+  "non_idl_tuples": [
+    "/home/uditr/mybot_ws/src/mybot_msgs:srv/AddTwoInts.srv",
+    "/home/uditr/mybot_ws/src/mybot_msgs:srv/GetTransform.srv"
+  ]
+}

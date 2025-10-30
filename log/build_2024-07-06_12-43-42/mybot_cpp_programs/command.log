@@ -1,0 +1,4 @@
+Invoking command in '/home/uditr/mybot_ws/build/mybot_cpp_programs': /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_cpp_programs -- -j8 -l8
+Invoked command in '/home/uditr/mybot_ws/build/mybot_cpp_programs' returned '0': /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_cpp_programs -- -j8 -l8
+Invoking command in '/home/uditr/mybot_ws/build/mybot_cpp_programs': /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_cpp_programs
+Invoked command in '/home/uditr/mybot_ws/build/mybot_cpp_programs' returned '0': /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_cpp_programs

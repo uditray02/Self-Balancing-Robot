@@ -1,0 +1,15 @@
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/ament_index/resource_index/package_run_dependencies/mybot_msgs
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/ament_index/resource_index/parent_prefix_path/mybot_msgs
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/environment/ament_prefix_path.sh
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/environment/ament_prefix_path.dsv
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/environment/path.sh
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/environment/path.dsv
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/local_setup.bash
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/local_setup.sh
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/local_setup.zsh
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/local_setup.dsv
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/package.dsv
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/ament_index/resource_index/packages/mybot_msgs
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/cmake/mybot_msgsConfig.cmake
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/cmake/mybot_msgsConfig-version.cmake
+/home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/package.xml

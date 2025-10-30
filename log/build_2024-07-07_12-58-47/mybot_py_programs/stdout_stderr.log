@@ -1,0 +1,21 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing mybot_py_programs.egg-info/PKG-INFO
+writing dependency_links to mybot_py_programs.egg-info/dependency_links.txt
+writing entry points to mybot_py_programs.egg-info/entry_points.txt
+writing requirements to mybot_py_programs.egg-info/requires.txt
+writing top-level names to mybot_py_programs.egg-info/top_level.txt
+reading manifest file 'mybot_py_programs.egg-info/SOURCES.txt'
+writing manifest file 'mybot_py_programs.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot-py-programs.egg-link (link to .)
+Installing simple_parameter script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+Installing simple_publisher script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+Installing simple_subscriber script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+
+Installed /home/uditr/mybot_ws/build/mybot_py_programs
+running symlink_data
+symbolically linking /home/uditr/mybot_ws/build/mybot_py_programs/resource/mybot_py_programs -> /home/uditr/mybot_ws/install/mybot_py_programs/share/ament_index/resource_index/packages
+symbolically linking /home/uditr/mybot_ws/build/mybot_py_programs/package.xml -> /home/uditr/mybot_ws/install/mybot_py_programs/share/mybot_py_programs

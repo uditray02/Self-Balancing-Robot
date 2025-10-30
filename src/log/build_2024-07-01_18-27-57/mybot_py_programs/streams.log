@@ -1,0 +1,33 @@
+[3.979s] Invoking command in '/home/uditr/mybot_ws/src/mybot_py_programs': PYTHONPATH=/home/uditr/mybot_ws/src/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/src/install/mybot_py_programs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/mybot_py_programs build --build-base /home/uditr/mybot_ws/src/build/mybot_py_programs/build install --record /home/uditr/mybot_ws/src/build/mybot_py_programs/install.log --single-version-externally-managed install_data
+[4.170s] running egg_info
+[4.170s] creating ../build/mybot_py_programs/mybot_py_programs.egg-info
+[4.170s] writing ../build/mybot_py_programs/mybot_py_programs.egg-info/PKG-INFO
+[4.170s] writing dependency_links to ../build/mybot_py_programs/mybot_py_programs.egg-info/dependency_links.txt
+[4.170s] writing entry points to ../build/mybot_py_programs/mybot_py_programs.egg-info/entry_points.txt
+[4.170s] writing requirements to ../build/mybot_py_programs/mybot_py_programs.egg-info/requires.txt
+[4.170s] writing top-level names to ../build/mybot_py_programs/mybot_py_programs.egg-info/top_level.txt
+[4.170s] writing manifest file '../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+[4.171s] reading manifest file '../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+[4.172s] writing manifest file '../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+[4.172s] running build
+[4.172s] running build_py
+[4.172s] creating /home/uditr/mybot_ws/src/build/mybot_py_programs/build
+[4.172s] creating /home/uditr/mybot_ws/src/build/mybot_py_programs/build/lib
+[4.172s] creating /home/uditr/mybot_ws/src/build/mybot_py_programs/build/lib/mybot_py_programs
+[4.172s] copying mybot_py_programs/__init__.py -> /home/uditr/mybot_ws/src/build/mybot_py_programs/build/lib/mybot_py_programs
+[4.172s] running install
+[4.172s] running install_lib
+[4.173s] creating /home/uditr/mybot_ws/src/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs
+[4.173s] copying /home/uditr/mybot_ws/src/build/mybot_py_programs/build/lib/mybot_py_programs/__init__.py -> /home/uditr/mybot_ws/src/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs
+[4.173s] byte-compiling /home/uditr/mybot_ws/src/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs/__init__.py to __init__.cpython-310.pyc
+[4.174s] running install_data
+[4.174s] creating /home/uditr/mybot_ws/src/install/mybot_py_programs/share/ament_index
+[4.174s] creating /home/uditr/mybot_ws/src/install/mybot_py_programs/share/ament_index/resource_index
+[4.174s] creating /home/uditr/mybot_ws/src/install/mybot_py_programs/share/ament_index/resource_index/packages
+[4.174s] copying resource/mybot_py_programs -> /home/uditr/mybot_ws/src/install/mybot_py_programs/share/ament_index/resource_index/packages
+[4.174s] copying package.xml -> /home/uditr/mybot_ws/src/install/mybot_py_programs/share/mybot_py_programs
+[4.174s] running install_egg_info
+[4.175s] Copying ../build/mybot_py_programs/mybot_py_programs.egg-info to /home/uditr/mybot_ws/src/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info
+[4.175s] running install_scripts
+[4.192s] writing list of installed files to '/home/uditr/mybot_ws/src/build/mybot_py_programs/install.log'
+[4.212s] Invoked command in '/home/uditr/mybot_ws/src/mybot_py_programs' returned '0': PYTHONPATH=/home/uditr/mybot_ws/src/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/src/install/mybot_py_programs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/mybot_py_programs build --build-base /home/uditr/mybot_ws/src/build/mybot_py_programs/build install --record /home/uditr/mybot_ws/src/build/mybot_py_programs/install.log --single-version-externally-managed install_data

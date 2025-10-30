@@ -1,0 +1,20 @@
+[0.232s] Invoking command in '/home/uditr/mybot_ws/build/mybot_cpp_programs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_cpp_programs -- -j8 -l8
+[2.374s] Invoked command in '/home/uditr/mybot_ws/build/mybot_cpp_programs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_cpp_programs -- -j8 -l8
+[2.397s] Invoking command in '/home/uditr/mybot_ws/build/mybot_cpp_programs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_cpp_programs
+[2.496s] -- Install configuration: ""
+[2.559s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/ament_index/resource_index/package_run_dependencies/mybot_cpp_programs
+[2.560s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/ament_index/resource_index/parent_prefix_path/mybot_cpp_programs
+[2.560s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/ament_prefix_path.sh
+[2.560s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/ament_prefix_path.dsv
+[2.560s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/path.sh
+[2.560s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/path.dsv
+[2.560s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.bash
+[2.560s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.sh
+[2.560s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.zsh
+[2.560s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.dsv
+[2.560s] -- Installing: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.dsv
+[2.603s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/ament_index/resource_index/packages/mybot_cpp_programs
+[2.603s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/cmake/mybot_cpp_programsConfig.cmake
+[2.603s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/cmake/mybot_cpp_programsConfig-version.cmake
+[2.603s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.xml
+[2.707s] Invoked command in '/home/uditr/mybot_ws/build/mybot_cpp_programs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_cpp_programs

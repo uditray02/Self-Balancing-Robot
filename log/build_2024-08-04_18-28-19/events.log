@@ -1,0 +1,595 @@
+[0.000000] (-) TimerEvent: {}
+[0.000682] (mybot_controller) JobQueued: {'identifier': 'mybot_controller', 'dependencies': OrderedDict()}
+[0.000802] (mybot_cpp_programs) JobQueued: {'identifier': 'mybot_cpp_programs', 'dependencies': OrderedDict()}
+[0.000913] (mybot_description) JobQueued: {'identifier': 'mybot_description', 'dependencies': OrderedDict()}
+[0.000947] (mybot_msgs) JobQueued: {'identifier': 'mybot_msgs', 'dependencies': OrderedDict()}
+[0.000960] (mybot_py_programs) JobQueued: {'identifier': 'mybot_py_programs', 'dependencies': OrderedDict([('mybot_msgs', '/home/uditr/mybot_ws/install/mybot_msgs')])}
+[0.000977] (mybot_msgs) JobStarted: {'identifier': 'mybot_msgs'}
+[0.069939] (mybot_controller) JobStarted: {'identifier': 'mybot_controller'}
+[0.072494] (mybot_cpp_programs) JobStarted: {'identifier': 'mybot_cpp_programs'}
+[0.084471] (mybot_description) JobStarted: {'identifier': 'mybot_description'}
+[0.098720] (mybot_msgs) JobProgress: {'identifier': 'mybot_msgs', 'progress': 'cmake'}
+[0.099988] (-) TimerEvent: {}
+[0.116764] (mybot_msgs) JobProgress: {'identifier': 'mybot_msgs', 'progress': 'build'}
+[0.116821] (mybot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uditr/mybot_ws/build/mybot_msgs', '--', '-j8', '-l8'], 'cwd': '/home/uditr/mybot_ws/build/mybot_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'uditr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uditr'), ('OLDPWD', '/home/uditr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1967'), ('SYSTEMD_EXEC_PID', '2142'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '203771'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uditr'), ('JOURNAL_STREAM', '8:31464'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uditr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/udit-r-ubun666:@/tmp/.ICE-unix/2109,unix/udit-r-ubun666:/tmp/.ICE-unix/2109'), ('INVOCATION_ID', '54a17decf2f54f97889e1e1becceea70'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T5EPR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e152b872-60d8-4d41-8674-bf594cb1fca2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uditr/mybot_ws/build/mybot_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.170192] (mybot_controller) JobProgress: {'identifier': 'mybot_controller', 'progress': 'cmake'}
+[0.200202] (-) TimerEvent: {}
+[0.233265] (mybot_controller) JobProgress: {'identifier': 'mybot_controller', 'progress': 'build'}
+[0.233422] (mybot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uditr/mybot_ws/build/mybot_controller', '--', '-j8', '-l8'], 'cwd': '/home/uditr/mybot_ws/build/mybot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'uditr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uditr'), ('OLDPWD', '/home/uditr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1967'), ('SYSTEMD_EXEC_PID', '2142'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '203771'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uditr'), ('JOURNAL_STREAM', '8:31464'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uditr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/udit-r-ubun666:@/tmp/.ICE-unix/2109,unix/udit-r-ubun666:/tmp/.ICE-unix/2109'), ('INVOCATION_ID', '54a17decf2f54f97889e1e1becceea70'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T5EPR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e152b872-60d8-4d41-8674-bf594cb1fca2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uditr/mybot_ws/build/mybot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.234377] (mybot_cpp_programs) JobProgress: {'identifier': 'mybot_cpp_programs', 'progress': 'cmake'}
+[0.255639] (mybot_cpp_programs) JobProgress: {'identifier': 'mybot_cpp_programs', 'progress': 'build'}
+[0.255940] (mybot_cpp_programs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uditr/mybot_ws/build/mybot_cpp_programs', '--', '-j8', '-l8'], 'cwd': '/home/uditr/mybot_ws/build/mybot_cpp_programs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'uditr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uditr'), ('OLDPWD', '/home/uditr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1967'), ('SYSTEMD_EXEC_PID', '2142'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '203771'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uditr'), ('JOURNAL_STREAM', '8:31464'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uditr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/udit-r-ubun666:@/tmp/.ICE-unix/2109,unix/udit-r-ubun666:/tmp/.ICE-unix/2109'), ('INVOCATION_ID', '54a17decf2f54f97889e1e1becceea70'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T5EPR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e152b872-60d8-4d41-8674-bf594cb1fca2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uditr/mybot_ws/build/mybot_cpp_programs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.257929] (mybot_description) JobProgress: {'identifier': 'mybot_description', 'progress': 'cmake'}
+[0.300398] (-) TimerEvent: {}
+[0.302285] (mybot_description) JobProgress: {'identifier': 'mybot_description', 'progress': 'build'}
+[0.302569] (mybot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uditr/mybot_ws/build/mybot_description', '--', '-j8', '-l8'], 'cwd': '/home/uditr/mybot_ws/build/mybot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'uditr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uditr'), ('OLDPWD', '/home/uditr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1967'), ('SYSTEMD_EXEC_PID', '2142'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '203771'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uditr'), ('JOURNAL_STREAM', '8:31464'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uditr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/udit-r-ubun666:@/tmp/.ICE-unix/2109,unix/udit-r-ubun666:/tmp/.ICE-unix/2109'), ('INVOCATION_ID', '54a17decf2f54f97889e1e1becceea70'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T5EPR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e152b872-60d8-4d41-8674-bf594cb1fca2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uditr/mybot_ws/build/mybot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.400562] (-) TimerEvent: {}
+[0.500855] (-) TimerEvent: {}
+[0.601249] (-) TimerEvent: {}
+[0.701569] (-) TimerEvent: {}
+[0.801925] (-) TimerEvent: {}
+[0.902305] (-) TimerEvent: {}
+[1.002595] (-) TimerEvent: {}
+[1.102892] (-) TimerEvent: {}
+[1.203340] (-) TimerEvent: {}
+[1.223162] (mybot_cpp_programs) CommandEnded: {'returncode': 0}
+[1.238009] (mybot_cpp_programs) JobProgress: {'identifier': 'mybot_cpp_programs', 'progress': 'install'}
+[1.244873] (mybot_cpp_programs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uditr/mybot_ws/build/mybot_cpp_programs'], 'cwd': '/home/uditr/mybot_ws/build/mybot_cpp_programs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'uditr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uditr'), ('OLDPWD', '/home/uditr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1967'), ('SYSTEMD_EXEC_PID', '2142'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '203771'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uditr'), ('JOURNAL_STREAM', '8:31464'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uditr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/udit-r-ubun666:@/tmp/.ICE-unix/2109,unix/udit-r-ubun666:/tmp/.ICE-unix/2109'), ('INVOCATION_ID', '54a17decf2f54f97889e1e1becceea70'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T5EPR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e152b872-60d8-4d41-8674-bf594cb1fca2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uditr/mybot_ws/build/mybot_cpp_programs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.254668] (mybot_cpp_programs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.257809] (mybot_description) CommandEnded: {'returncode': 0}
+[1.273007] (mybot_description) JobProgress: {'identifier': 'mybot_description', 'progress': 'install'}
+[1.273221] (mybot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uditr/mybot_ws/build/mybot_description'], 'cwd': '/home/uditr/mybot_ws/build/mybot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'uditr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uditr'), ('OLDPWD', '/home/uditr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1967'), ('SYSTEMD_EXEC_PID', '2142'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '203771'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uditr'), ('JOURNAL_STREAM', '8:31464'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uditr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/udit-r-ubun666:@/tmp/.ICE-unix/2109,unix/udit-r-ubun666:/tmp/.ICE-unix/2109'), ('INVOCATION_ID', '54a17decf2f54f97889e1e1becceea70'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T5EPR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e152b872-60d8-4d41-8674-bf594cb1fca2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uditr/mybot_ws/build/mybot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.279864] (mybot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.292088] (mybot_controller) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_mybot_controller\n'}
+[1.303458] (-) TimerEvent: {}
+[1.370465] (mybot_cpp_programs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.403586] (-) TimerEvent: {}
+[1.428909] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/ament_index/resource_index/package_run_dependencies/mybot_cpp_programs\n'}
+[1.445967] (mybot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.462228] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/ament_index/resource_index/parent_prefix_path/mybot_cpp_programs\n'}
+[1.463295] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/ament_prefix_path.sh\n'}
+[1.468912] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/ament_prefix_path.dsv\n'}
+[1.469461] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/path.sh\n'}
+[1.469797] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/path.dsv\n'}
+[1.470133] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.bash\n'}
+[1.470493] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.sh\n'}
+[1.470757] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.zsh\n'}
+[1.471066] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.dsv\n'}
+[1.471186] (mybot_cpp_programs) StdoutLine: {'line': b'-- Symlinking: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.dsv\n'}
+[1.503688] (-) TimerEvent: {}
+[1.526362] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/base_link.STL\n'}
+[1.526601] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/can.STL\n'}
+[1.526744] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/caster_front_link.STL\n'}
+[1.527131] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/caster_rear_link.STL\n'}
+[1.527471] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/imu_link.STL\n'}
+[1.527752] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/wheel_left_link.STL\n'}
+[1.528022] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/wheel_right_link.STL\n'}
+[1.541193] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/ament_index/resource_index/packages/mybot_cpp_programs\n'}
+[1.541687] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/cmake/mybot_cpp_programsConfig.cmake\n'}
+[1.541988] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/cmake/mybot_cpp_programsConfig-version.cmake\n'}
+[1.542108] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.xml\n'}
+[1.543548] (mybot_cpp_programs) CommandEnded: {'returncode': 0}
+[1.546649] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/materials.xacro\n'}
+[1.547788] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot.urdf.xacro\n'}
+[1.548164] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot_gazebo.xacro\n'}
+[1.548528] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot_ros2_control.xacro\n'}
+[1.597427] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_2.sdf\n'}
+[1.598242] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_3.sdf\n'}
+[1.598568] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_4.sdf\n'}
+[1.598923] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model.config\n'}
+[1.599269] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model.sdf\n'}
+[1.603777] (-) TimerEvent: {}
+[1.619868] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_2.sdf\n'}
+[1.620166] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_3.sdf\n'}
+[1.620504] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_4.sdf\n'}
+[1.620823] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model.config\n'}
+[1.621154] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model.sdf\n'}
+[1.632443] (mybot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.633032] (mybot_controller) StdoutLine: {'line': b'writing mybot_controller.egg-info/PKG-INFO\n'}
+[1.633283] (mybot_controller) StdoutLine: {'line': b'writing dependency_links to mybot_controller.egg-info/dependency_links.txt\n'}
+[1.633446] (mybot_controller) StdoutLine: {'line': b'writing top-level names to mybot_controller.egg-info/top_level.txt\n'}
+[1.635788] (mybot_controller) StdoutLine: {'line': b"reading manifest file 'mybot_controller.egg-info/SOURCES.txt'\n"}
+[1.636639] (mybot_controller) StdoutLine: {'line': b"writing manifest file 'mybot_controller.egg-info/SOURCES.txt'\n"}
+[1.659438] (mybot_controller) StdoutLine: {'line': b'Built target ament_cmake_python_build_mybot_controller_egg\n'}
+[1.703925] (-) TimerEvent: {}
+[1.705623] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/launch/display.launch.py\n'}
+[1.706054] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/launch/gazebo.launch.py\n'}
+[1.707345] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/rviz/display.rviz\n'}
+[1.746420] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/package_run_dependencies/mybot_description\n'}
+[1.804074] (-) TimerEvent: {}
+[1.824411] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/parent_prefix_path/mybot_description\n'}
+[1.855611] (mybot_controller) CommandEnded: {'returncode': 0}
+[1.857055] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/ament_prefix_path.sh\n'}
+[1.857428] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/ament_prefix_path.dsv\n'}
+[1.857731] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/path.sh\n'}
+[1.866087] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/path.dsv\n'}
+[1.866484] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.bash\n'}
+[1.866866] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.sh\n'}
+[1.867524] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.zsh\n'}
+[1.867885] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.dsv\n'}
+[1.868150] (mybot_description) StdoutLine: {'line': b'-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.dsv\n'}
+[1.877925] (mybot_cpp_programs) JobEnded: {'identifier': 'mybot_cpp_programs', 'rc': 0}
+[1.879295] (mybot_controller) JobProgress: {'identifier': 'mybot_controller', 'progress': 'install'}
+[1.879453] (mybot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uditr/mybot_ws/build/mybot_controller'], 'cwd': '/home/uditr/mybot_ws/build/mybot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'uditr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uditr'), ('OLDPWD', '/home/uditr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1967'), ('SYSTEMD_EXEC_PID', '2142'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '203771'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uditr'), ('JOURNAL_STREAM', '8:31464'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uditr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/udit-r-ubun666:@/tmp/.ICE-unix/2109,unix/udit-r-ubun666:/tmp/.ICE-unix/2109'), ('INVOCATION_ID', '54a17decf2f54f97889e1e1becceea70'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T5EPR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e152b872-60d8-4d41-8674-bf594cb1fca2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uditr/mybot_ws/build/mybot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.885264] (mybot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.904203] (-) TimerEvent: {}
+[1.912653] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/packages/mybot_description\n'}
+[1.913841] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig.cmake\n'}
+[1.914113] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake\n'}
+[1.914258] (mybot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.xml\n'}
+[1.915642] (mybot_description) CommandEnded: {'returncode': 0}
+[1.943757] (mybot_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.963267] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/pythonpath.sh\n'}
+[1.974508] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/pythonpath.dsv\n'}
+[1.986887] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/local/lib/python3.10/dist-packages/mybot_controller-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.990628] (mybot_description) JobEnded: {'identifier': 'mybot_description', 'rc': 0}
+[2.004331] (-) TimerEvent: {}
+[2.008805] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/local/lib/python3.10/dist-packages/mybot_controller-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.009235] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/local/lib/python3.10/dist-packages/mybot_controller-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.024853] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/local/lib/python3.10/dist-packages/mybot_controller-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.025425] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/local/lib/python3.10/dist-packages/mybot_controller/__init__.py\n'}
+[2.025493] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/local/lib/python3.10/dist-packages/mybot_controller/simple_controller.py\n'}
+[2.042376] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/config/joy_config.yaml\n'}
+[2.066676] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/config/joy_teleop.yaml\n'}
+[2.067653] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/config/mybot_controllers.yaml\n'}
+[2.068480] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/launch/controller.launch.py\n'}
+[2.068591] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/launch/joystick_teleop.launch.py\n'}
+[2.097437] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/lib/mybot_controller/simple_controller.py\n'}
+[2.098177] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/ament_index/resource_index/package_run_dependencies/mybot_controller\n'}
+[2.098554] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/ament_index/resource_index/parent_prefix_path/mybot_controller\n'}
+[2.098988] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/ament_prefix_path.sh\n'}
+[2.099298] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/ament_prefix_path.dsv\n'}
+[2.099721] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/path.sh\n'}
+[2.100119] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/path.dsv\n'}
+[2.100468] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.bash\n'}
+[2.100820] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.sh\n'}
+[2.101189] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.zsh\n'}
+[2.101499] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.dsv\n'}
+[2.101646] (mybot_controller) StdoutLine: {'line': b'-- Symlinking: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.dsv\n'}
+[2.104424] (-) TimerEvent: {}
+[2.108682] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/ament_index/resource_index/packages/mybot_controller\n'}
+[2.108967] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/cmake/mybot_controllerConfig.cmake\n'}
+[2.109872] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/cmake/mybot_controllerConfig-version.cmake\n'}
+[2.109985] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.xml\n'}
+[2.141843] (mybot_controller) StdoutLine: {'line': b"Listing '/home/uditr/mybot_ws/install/mybot_controller/local/lib/python3.10/dist-packages/mybot_controller'...\n"}
+[2.146828] (mybot_controller) CommandEnded: {'returncode': 0}
+[2.173469] (mybot_controller) JobEnded: {'identifier': 'mybot_controller', 'rc': 0}
+[2.204559] (-) TimerEvent: {}
+[2.304830] (-) TimerEvent: {}
+[2.362942] (mybot_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.404926] (-) TimerEvent: {}
+[2.505202] (-) TimerEvent: {}
+[2.605502] (-) TimerEvent: {}
+[2.705761] (-) TimerEvent: {}
+[2.806036] (-) TimerEvent: {}
+[2.906287] (-) TimerEvent: {}
+[3.006574] (-) TimerEvent: {}
+[3.106853] (-) TimerEvent: {}
+[3.207135] (-) TimerEvent: {}
+[3.307393] (-) TimerEvent: {}
+[3.407671] (-) TimerEvent: {}
+[3.507954] (-) TimerEvent: {}
+[3.608237] (-) TimerEvent: {}
+[3.708495] (-) TimerEvent: {}
+[3.808768] (-) TimerEvent: {}
+[3.909071] (-) TimerEvent: {}
+[4.009322] (-) TimerEvent: {}
+[4.109608] (-) TimerEvent: {}
+[4.180586] (mybot_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[4.209808] (-) TimerEvent: {}
+[4.310168] (-) TimerEvent: {}
+[4.410419] (-) TimerEvent: {}
+[4.510699] (-) TimerEvent: {}
+[4.610988] (-) TimerEvent: {}
+[4.711346] (-) TimerEvent: {}
+[4.736803] (mybot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.811482] (-) TimerEvent: {}
+[4.834130] (mybot_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.911609] (-) TimerEvent: {}
+[4.929966] (mybot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.011841] (-) TimerEvent: {}
+[5.032879] (mybot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.111932] (-) TimerEvent: {}
+[5.212273] (-) TimerEvent: {}
+[5.274923] (mybot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.312373] (-) TimerEvent: {}
+[5.412724] (-) TimerEvent: {}
+[5.435071] (mybot_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.512910] (-) TimerEvent: {}
+[5.514117] (mybot_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.613008] (-) TimerEvent: {}
+[5.713304] (-) TimerEvent: {}
+[5.813637] (-) TimerEvent: {}
+[5.878055] (mybot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.913843] (-) TimerEvent: {}
+[6.014217] (-) TimerEvent: {}
+[6.114455] (-) TimerEvent: {}
+[6.214713] (-) TimerEvent: {}
+[6.314971] (-) TimerEvent: {}
+[6.415195] (-) TimerEvent: {}
+[6.452986] (mybot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.515320] (-) TimerEvent: {}
+[6.588798] (mybot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.615447] (-) TimerEvent: {}
+[6.650876] (mybot_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.715648] (-) TimerEvent: {}
+[6.720729] (mybot_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.720849] (mybot_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.720895] (mybot_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.780741] (mybot_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.815746] (-) TimerEvent: {}
+[6.916094] (-) TimerEvent: {}
+[7.016460] (-) TimerEvent: {}
+[7.116815] (-) TimerEvent: {}
+[7.217173] (-) TimerEvent: {}
+[7.279980] (mybot_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.317375] (-) TimerEvent: {}
+[7.417730] (-) TimerEvent: {}
+[7.517984] (-) TimerEvent: {}
+[7.545887] (mybot_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[7.550473] (mybot_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/uditr/mybot_ws/build/mybot_msgs\n'}
+[7.579115] (mybot_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.601015] (mybot_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.618110] (-) TimerEvent: {}
+[7.718482] (-) TimerEvent: {}
+[7.730437] (mybot_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_mybot_msgs\n'}
+[7.818597] (-) TimerEvent: {}
+[7.919017] (-) TimerEvent: {}
+[8.019315] (-) TimerEvent: {}
+[8.051727] (mybot_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[8.053316] (mybot_msgs) StdoutLine: {'line': b'writing mybot_msgs.egg-info/PKG-INFO\n'}
+[8.053808] (mybot_msgs) StdoutLine: {'line': b'writing dependency_links to mybot_msgs.egg-info/dependency_links.txt\n'}
+[8.054058] (mybot_msgs) StdoutLine: {'line': b'writing top-level names to mybot_msgs.egg-info/top_level.txt\n'}
+[8.058973] (mybot_msgs) StdoutLine: {'line': b"reading manifest file 'mybot_msgs.egg-info/SOURCES.txt'\n"}
+[8.086958] (mybot_msgs) StdoutLine: {'line': b"writing manifest file 'mybot_msgs.egg-info/SOURCES.txt'\n"}
+[8.119442] (-) TimerEvent: {}
+[8.127715] (mybot_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_mybot_msgs_egg\n'}
+[8.219545] (-) TimerEvent: {}
+[8.319856] (-) TimerEvent: {}
+[8.373974] (mybot_msgs) StdoutLine: {'line': b'[  5%] Built target mybot_msgs__cpp\n'}
+[8.392061] (mybot_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.392636] (mybot_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.392894] (mybot_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.419959] (-) TimerEvent: {}
+[8.422901] (mybot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mybot_msgs__rosidl_generator_c\x1b[0m\n'}
+[8.435775] (mybot_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/mybot_msgs__rosidl_generator_c.dir/rosidl_generator_c/mybot_msgs/srv/detail/add_two_ints__functions.c.o\x1b[0m\n'}
+[8.439087] (mybot_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/mybot_msgs__rosidl_generator_c.dir/rosidl_generator_c/mybot_msgs/srv/detail/get_transform__functions.c.o\x1b[0m\n'}
+[8.520073] (-) TimerEvent: {}
+[8.620351] (-) TimerEvent: {}
+[8.720679] (-) TimerEvent: {}
+[8.756522] (mybot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mybot_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.771631] (mybot_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/mybot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mybot_msgs/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[8.820812] (-) TimerEvent: {}
+[8.826918] (mybot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mybot_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[8.839379] (mybot_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mybot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mybot_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o\x1b[0m\n'}
+[8.839548] (mybot_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mybot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mybot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[8.866755] (mybot_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/mybot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mybot_msgs/srv/get_transform__type_support.cpp.o\x1b[0m\n'}
+[8.920927] (-) TimerEvent: {}
+[8.933214] (mybot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mybot_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[8.943015] (mybot_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mybot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mybot_msgs/srv/detail/get_transform__type_support.cpp.o\x1b[0m\n'}
+[8.943214] (mybot_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mybot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mybot_msgs/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[9.021056] (-) TimerEvent: {}
+[9.121545] (-) TimerEvent: {}
+[9.221853] (-) TimerEvent: {}
+[9.322178] (-) TimerEvent: {}
+[9.422455] (-) TimerEvent: {}
+[9.522817] (-) TimerEvent: {}
+[9.623125] (-) TimerEvent: {}
+[9.723409] (-) TimerEvent: {}
+[9.823692] (-) TimerEvent: {}
+[9.923972] (-) TimerEvent: {}
+[10.024258] (-) TimerEvent: {}
+[10.124557] (-) TimerEvent: {}
+[10.224863] (-) TimerEvent: {}
+[10.325191] (-) TimerEvent: {}
+[10.425506] (-) TimerEvent: {}
+[10.525785] (-) TimerEvent: {}
+[10.626080] (-) TimerEvent: {}
+[10.726348] (-) TimerEvent: {}
+[10.826621] (-) TimerEvent: {}
+[10.926917] (-) TimerEvent: {}
+[11.027214] (-) TimerEvent: {}
+[11.127573] (-) TimerEvent: {}
+[11.227881] (-) TimerEvent: {}
+[11.328246] (-) TimerEvent: {}
+[11.428625] (-) TimerEvent: {}
+[11.529008] (-) TimerEvent: {}
+[11.629307] (-) TimerEvent: {}
+[11.710963] (mybot_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking C shared library libmybot_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[11.729408] (-) TimerEvent: {}
+[11.829696] (-) TimerEvent: {}
+[11.930091] (-) TimerEvent: {}
+[12.030531] (-) TimerEvent: {}
+[12.130181] (mybot_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libmybot_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.130899] (-) TimerEvent: {}
+[12.231228] (-) TimerEvent: {}
+[12.245371] (mybot_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libmybot_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[12.331360] (-) TimerEvent: {}
+[12.431755] (-) TimerEvent: {}
+[12.531098] (mybot_msgs) StdoutLine: {'line': b'[ 41%] Built target mybot_msgs__rosidl_generator_c\n'}
+[12.531826] (-) TimerEvent: {}
+[12.539639] (mybot_msgs) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.539927] (mybot_msgs) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.540027] (mybot_msgs) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[12.631969] (-) TimerEvent: {}
+[12.732250] (-) TimerEvent: {}
+[12.734667] (mybot_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmybot_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.782670] (mybot_msgs) StdoutLine: {'line': b'[ 51%] Built target mybot_msgs__rosidl_typesupport_cpp\n'}
+[12.832357] (-) TimerEvent: {}
+[12.932696] (-) TimerEvent: {}
+[13.032988] (-) TimerEvent: {}
+[13.087020] (mybot_msgs) StdoutLine: {'line': b'[ 51%] Built target mybot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[13.133244] (-) TimerEvent: {}
+[13.161438] (mybot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mybot_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[13.169529] (mybot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mybot_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[13.172627] (mybot_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/mybot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mybot_msgs/srv/detail/add_two_ints__type_support_c.cpp.o\x1b[0m\n'}
+[13.172841] (mybot_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/mybot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mybot_msgs/srv/detail/get_transform__type_support_c.cpp.o\x1b[0m\n'}
+[13.175258] (mybot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mybot_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[13.182995] (mybot_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/mybot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mybot_msgs/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[13.183792] (mybot_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/mybot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mybot_msgs/srv/get_transform__type_support.cpp.o\x1b[0m\n'}
+[13.192427] (mybot_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/mybot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mybot_msgs/srv/detail/get_transform__type_support.c.o\x1b[0m\n'}
+[13.192789] (mybot_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/mybot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mybot_msgs/srv/detail/add_two_ints__type_support.c.o\x1b[0m\n'}
+[13.233374] (-) TimerEvent: {}
+[13.244092] (mybot_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library libmybot_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.290578] (mybot_msgs) StdoutLine: {'line': b'[ 69%] Built target mybot_msgs__rosidl_typesupport_introspection_c\n'}
+[13.302507] (mybot_msgs) StdoutLine: {'line': b'[ 69%] Built target mybot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[13.304117] (mybot_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmybot_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.333488] (-) TimerEvent: {}
+[13.433791] (-) TimerEvent: {}
+[13.534100] (-) TimerEvent: {}
+[13.535334] (mybot_msgs) StdoutLine: {'line': b'[ 71%] Built target mybot_msgs__rosidl_typesupport_c\n'}
+[13.634290] (-) TimerEvent: {}
+[13.634454] (mybot_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmybot_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.727739] (mybot_msgs) StdoutLine: {'line': b'[ 74%] Built target mybot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[13.734374] (-) TimerEvent: {}
+[13.761689] (mybot_msgs) StdoutLine: {'line': b'[ 74%] Built target mybot_msgs\n'}
+[13.779232] (mybot_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.834462] (-) TimerEvent: {}
+[13.934725] (-) TimerEvent: {}
+[14.034975] (-) TimerEvent: {}
+[14.135245] (-) TimerEvent: {}
+[14.235555] (-) TimerEvent: {}
+[14.335825] (-) TimerEvent: {}
+[14.378956] (mybot_msgs) StdoutLine: {'line': b'[ 76%] Built target mybot_msgs__py\n'}
+[14.435949] (-) TimerEvent: {}
+[14.463491] (mybot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mybot_msgs__rosidl_generator_py\x1b[0m\n'}
+[14.473513] (mybot_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/mybot_msgs__rosidl_generator_py.dir/rosidl_generator_py/mybot_msgs/srv/_get_transform_s.c.o\x1b[0m\n'}
+[14.473726] (mybot_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/mybot_msgs__rosidl_generator_py.dir/rosidl_generator_py/mybot_msgs/srv/_add_two_ints_s.c.o\x1b[0m\n'}
+[14.536050] (-) TimerEvent: {}
+[14.636315] (-) TimerEvent: {}
+[14.736651] (-) TimerEvent: {}
+[14.836915] (-) TimerEvent: {}
+[14.929784] (mybot_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mybot_msgs/libmybot_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[14.937038] (-) TimerEvent: {}
+[14.974757] (mybot_msgs) StdoutLine: {'line': b'[ 84%] Built target mybot_msgs__rosidl_generator_py\n'}
+[14.986435] (mybot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mybot_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[14.996135] (mybot_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/mybot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mybot_msgs/_mybot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.012598] (mybot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mybot_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[15.017688] (mybot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mybot_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[15.024416] (mybot_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/mybot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mybot_msgs/_mybot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.030663] (mybot_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/mybot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mybot_msgs/_mybot_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.037162] (-) TimerEvent: {}
+[15.096933] (mybot_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mybot_msgs/mybot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.130056] (mybot_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mybot_msgs/mybot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.135804] (mybot_msgs) StdoutLine: {'line': b'[ 97%] Built target mybot_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[15.136494] (mybot_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mybot_msgs/mybot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.137240] (-) TimerEvent: {}
+[15.163587] (mybot_msgs) StdoutLine: {'line': b'[100%] Built target mybot_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.172010] (mybot_msgs) StdoutLine: {'line': b'[100%] Built target mybot_msgs__rosidl_typesupport_c__pyext\n'}
+[15.180992] (mybot_msgs) CommandEnded: {'returncode': 0}
+[15.232305] (mybot_msgs) JobProgress: {'identifier': 'mybot_msgs', 'progress': 'install'}
+[15.232538] (mybot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uditr/mybot_ws/build/mybot_msgs'], 'cwd': '/home/uditr/mybot_ws/build/mybot_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'uditr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uditr'), ('OLDPWD', '/home/uditr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1967'), ('SYSTEMD_EXEC_PID', '2142'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '203771'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uditr'), ('JOURNAL_STREAM', '8:31464'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uditr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/udit-r-ubun666:@/tmp/.ICE-unix/2109,unix/udit-r-ubun666:/tmp/.ICE-unix/2109'), ('INVOCATION_ID', '54a17decf2f54f97889e1e1becceea70'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T5EPR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e152b872-60d8-4d41-8674-bf594cb1fca2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uditr/mybot_ws/build/mybot_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.237335] (-) TimerEvent: {}
+[15.239131] (mybot_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.239269] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/ament_index/resource_index/rosidl_interfaces/mybot_msgs\n'}
+[15.239321] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs\n'}
+[15.239382] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/msg\n'}
+[15.239425] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.239469] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv\n'}
+[15.239512] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/get_transform.h\n'}
+[15.239555] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail\n'}
+[15.239596] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/add_two_ints__functions.h\n'}
+[15.239664] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/add_two_ints__functions.c\n'}
+[15.239705] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/add_two_ints__type_support.h\n'}
+[15.239748] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/get_transform__struct.h\n'}
+[15.239791] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/get_transform__type_support.h\n'}
+[15.239847] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/get_transform__functions.h\n'}
+[15.239890] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/get_transform__functions.c\n'}
+[15.239933] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/add_two_ints__struct.h\n'}
+[15.240013] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/add_two_ints.h\n'}
+[15.240079] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/environment/library_path.sh\n'}
+[15.240121] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/environment/library_path.dsv\n'}
+[15.268534] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_generator_c.so\n'}
+[15.268797] (mybot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_generator_c.so" to ""\n'}
+[15.268890] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs\n'}
+[15.268939] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/msg\n'}
+[15.269006] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.269090] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv\n'}
+[15.269132] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail\n'}
+[15.269171] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[15.269210] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h\n'}
+[15.270152] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[15.270387] (mybot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.270505] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs\n'}
+[15.270575] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv\n'}
+[15.270621] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/get_transform.hpp\n'}
+[15.270664] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/add_two_ints.hpp\n'}
+[15.270727] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail\n'}
+[15.270801] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/add_two_ints__traits.hpp\n'}
+[15.270842] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/get_transform__builder.hpp\n'}
+[15.270884] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/get_transform__traits.hpp\n'}
+[15.270944] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/add_two_ints__builder.hpp\n'}
+[15.271005] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/get_transform__struct.hpp\n'}
+[15.271068] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/add_two_ints__struct.hpp\n'}
+[15.271127] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs\n'}
+[15.271186] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/msg\n'}
+[15.271261] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.271305] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv\n'}
+[15.271347] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail\n'}
+[15.271389] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/dds_fastrtps\n'}
+[15.271451] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.271491] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.272516] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.272708] (mybot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[15.272775] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs\n'}
+[15.272829] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/msg\n'}
+[15.272870] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.272932] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv\n'}
+[15.273009] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail\n'}
+[15.273051] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/get_transform__type_support.c\n'}
+[15.273093] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h\n'}
+[15.273161] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/add_two_ints__type_support.c\n'}
+[15.273202] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[15.275210] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[15.275420] (mybot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.275992] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_typesupport_c.so\n'}
+[15.276217] (mybot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_typesupport_c.so" to ""\n'}
+[15.276293] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs\n'}
+[15.276344] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv\n'}
+[15.276416] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail\n'}
+[15.276498] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.276576] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/add_two_ints__type_support.cpp\n'}
+[15.276628] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/get_transform__type_support.cpp\n'}
+[15.276710] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/include/mybot_msgs/mybot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.277758] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[15.278094] (mybot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.279122] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_typesupport_cpp.so\n'}
+[15.279490] (mybot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[15.279613] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/environment/pythonpath.sh\n'}
+[15.279728] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/environment/pythonpath.dsv\n'}
+[15.279834] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs-0.0.0-py3.10.egg-info\n'}
+[15.279958] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[15.280033] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[15.280135] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[15.280233] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[15.280335] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs\n'}
+[15.280420] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/_mybot_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[15.280504] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/_mybot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[15.280602] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/__init__.py\n'}
+[15.280682] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/libmybot_msgs__rosidl_generator_py.so\n'}
+[15.280786] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/mybot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.280891] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/_mybot_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[15.280984] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/srv\n'}
+[15.281063] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/srv/__init__.py\n'}
+[15.281140] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/srv/_get_transform_s.c\n'}
+[15.281216] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/srv/_get_transform.py\n'}
+[15.281318] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/srv/_add_two_ints_s.c\n'}
+[15.281395] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/srv/_add_two_ints.py\n'}
+[15.281483] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/mybot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.281585] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/mybot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.331304] (mybot_msgs) StdoutLine: {'line': b"Listing '/home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs'...\n"}
+[15.331472] (mybot_msgs) StdoutLine: {'line': b"Compiling '/home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/__init__.py'...\n"}
+[15.331522] (mybot_msgs) StdoutLine: {'line': b"Listing '/home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/srv'...\n"}
+[15.331576] (mybot_msgs) StdoutLine: {'line': b"Compiling '/home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/srv/__init__.py'...\n"}
+[15.331618] (mybot_msgs) StdoutLine: {'line': b"Compiling '/home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/srv/_add_two_ints.py'...\n"}
+[15.331658] (mybot_msgs) StdoutLine: {'line': b"Compiling '/home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/srv/_get_transform.py'...\n"}
+[15.335136] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/mybot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.335281] (mybot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/mybot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.335350] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/mybot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.335507] (mybot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/mybot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.335606] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/mybot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.335764] (mybot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages/mybot_msgs/mybot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.336881] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_generator_py.so\n'}
+[15.337093] (mybot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/uditr/mybot_ws/install/mybot_msgs/lib/libmybot_msgs__rosidl_generator_py.so" to ""\n'}
+[15.337182] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/srv/AddTwoInts.idl\n'}
+[15.337251] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/srv/GetTransform.idl\n'}
+[15.337343] (-) TimerEvent: {}
+[15.337658] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/srv/AddTwoInts.srv\n'}
+[15.337780] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/srv/AddTwoInts_Request.msg\n'}
+[15.337890] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/srv/AddTwoInts_Response.msg\n'}
+[15.337965] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/srv/GetTransform.srv\n'}
+[15.338061] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/srv/GetTransform_Request.msg\n'}
+[15.338167] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/srv/GetTransform_Response.msg\n'}
+[15.338242] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/ament_index/resource_index/package_run_dependencies/mybot_msgs\n'}
+[15.338333] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/ament_index/resource_index/parent_prefix_path/mybot_msgs\n'}
+[15.338403] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/environment/ament_prefix_path.sh\n'}
+[15.338494] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/environment/ament_prefix_path.dsv\n'}
+[15.338535] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/environment/path.sh\n'}
+[15.338586] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/environment/path.dsv\n'}
+[15.338638] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/local_setup.bash\n'}
+[15.338718] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/local_setup.sh\n'}
+[15.338837] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/local_setup.zsh\n'}
+[15.338925] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/local_setup.dsv\n'}
+[15.338978] (mybot_msgs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/package.dsv\n'}
+[15.339029] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/ament_index/resource_index/packages/mybot_msgs\n'}
+[15.339088] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/export_mybot_msgs__rosidl_generator_cExport.cmake\n'}
+[15.339242] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/export_mybot_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.339407] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/export_mybot_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[15.339504] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/export_mybot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[15.339678] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/export_mybot_msgs__rosidl_generator_cppExport.cmake\n'}
+[15.340053] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/export_mybot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[15.340186] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/export_mybot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[15.340414] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/mybot_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.340522] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/mybot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.340727] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/mybot_msgs__rosidl_typesupport_cExport.cmake\n'}
+[15.340838] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/mybot_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.341076] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/mybot_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.341193] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/mybot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.341405] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/mybot_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[15.341524] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/mybot_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.341747] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/export_mybot_msgs__rosidl_generator_pyExport.cmake\n'}
+[15.341859] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/export_mybot_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[15.341960] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[15.342069] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.342214] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.342332] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.342415] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.342508] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.342597] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.342678] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/mybot_msgsConfig.cmake\n'}
+[15.342754] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/cmake/mybot_msgsConfig-version.cmake\n'}
+[15.342833] (mybot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_msgs/share/mybot_msgs/package.xml\n'}
+[15.344257] (mybot_msgs) CommandEnded: {'returncode': 0}
+[15.409582] (mybot_msgs) JobEnded: {'identifier': 'mybot_msgs', 'rc': 0}
+[15.410316] (mybot_py_programs) JobStarted: {'identifier': 'mybot_py_programs'}
+[15.437454] (-) TimerEvent: {}
+[15.537783] (-) TimerEvent: {}
+[15.638146] (-) TimerEvent: {}
+[15.738453] (-) TimerEvent: {}
+[15.838741] (-) TimerEvent: {}
+[15.939004] (-) TimerEvent: {}
+[16.039357] (-) TimerEvent: {}
+[16.139715] (-) TimerEvent: {}
+[16.240055] (-) TimerEvent: {}
+[16.340416] (-) TimerEvent: {}
+[16.440663] (-) TimerEvent: {}
+[16.540986] (-) TimerEvent: {}
+[16.641334] (-) TimerEvent: {}
+[16.741701] (-) TimerEvent: {}
+[16.842102] (-) TimerEvent: {}
+[16.856540] (mybot_py_programs) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mybot_py_programs', 'build', '--build-base', '/home/uditr/mybot_ws/build/mybot_py_programs/build', 'install', '--record', '/home/uditr/mybot_ws/build/mybot_py_programs/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/uditr/mybot_ws/src/mybot_py_programs', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'uditr', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/uditr/mybot_ws/install/mybot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/uditr', 'OLDPWD': '/home/uditr', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1967', 'SYSTEMD_EXEC_PID': '2142', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '203771', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'uditr', 'JOURNAL_STREAM': '8:31464', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'uditr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/udit-r-ubun666:@/tmp/.ICE-unix/2109,unix/udit-r-ubun666:/tmp/.ICE-unix/2109', 'INVOCATION_ID': '54a17decf2f54f97889e1e1becceea70', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T5EPR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/uditr/mybot_ws/install/mybot_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:e152b872-60d8-4d41-8674-bf594cb1fca2', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/uditr/mybot_ws/build/mybot_py_programs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:/home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/uditr/mybot_ws/install/mybot_msgs'}, 'shell': False}
+[16.942176] (-) TimerEvent: {}
+[17.042423] (-) TimerEvent: {}
+[17.083251] (mybot_py_programs) StdoutLine: {'line': b'running egg_info\n'}
+[17.083847] (mybot_py_programs) StdoutLine: {'line': b'writing ../../build/mybot_py_programs/mybot_py_programs.egg-info/PKG-INFO\n'}
+[17.084109] (mybot_py_programs) StdoutLine: {'line': b'writing dependency_links to ../../build/mybot_py_programs/mybot_py_programs.egg-info/dependency_links.txt\n'}
+[17.084292] (mybot_py_programs) StdoutLine: {'line': b'writing entry points to ../../build/mybot_py_programs/mybot_py_programs.egg-info/entry_points.txt\n'}
+[17.084419] (mybot_py_programs) StdoutLine: {'line': b'writing requirements to ../../build/mybot_py_programs/mybot_py_programs.egg-info/requires.txt\n'}
+[17.084505] (mybot_py_programs) StdoutLine: {'line': b'writing top-level names to ../../build/mybot_py_programs/mybot_py_programs.egg-info/top_level.txt\n'}
+[17.085972] (mybot_py_programs) StdoutLine: {'line': b"reading manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'\n"}
+[17.102982] (mybot_py_programs) StdoutLine: {'line': b"writing manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'\n"}
+[17.103207] (mybot_py_programs) StdoutLine: {'line': b'running build\n'}
+[17.103270] (mybot_py_programs) StdoutLine: {'line': b'running build_py\n'}
+[17.103312] (mybot_py_programs) StdoutLine: {'line': b'copying mybot_py_programs/simple_tf_kinematics.py -> /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs\n'}
+[17.103748] (mybot_py_programs) StdoutLine: {'line': b'running install\n'}
+[17.104141] (mybot_py_programs) StdoutLine: {'line': b'running install_lib\n'}
+[17.105007] (mybot_py_programs) StdoutLine: {'line': b'copying /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs/simple_tf_kinematics.py -> /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs\n'}
+[17.115819] (mybot_py_programs) StdoutLine: {'line': b'byte-compiling /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs/simple_tf_kinematics.py to simple_tf_kinematics.cpython-310.pyc\n'}
+[17.116757] (mybot_py_programs) StdoutLine: {'line': b'running install_data\n'}
+[17.116844] (mybot_py_programs) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.118148] (mybot_py_programs) StdoutLine: {'line': b"removing '/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[17.118330] (mybot_py_programs) StdoutLine: {'line': b'Copying ../../build/mybot_py_programs/mybot_py_programs.egg-info to /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info\n'}
+[17.129742] (mybot_py_programs) StdoutLine: {'line': b'running install_scripts\n'}
+[17.142530] (-) TimerEvent: {}
+[17.145618] (mybot_py_programs) StdoutLine: {'line': b'Installing simple_controller script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs\n'}
+[17.145725] (mybot_py_programs) StdoutLine: {'line': b'Installing simple_parameter script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs\n'}
+[17.145773] (mybot_py_programs) StdoutLine: {'line': b'Installing simple_publisher script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs\n'}
+[17.145835] (mybot_py_programs) StdoutLine: {'line': b'Installing simple_service_client script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs\n'}
+[17.145875] (mybot_py_programs) StdoutLine: {'line': b'Installing simple_service_server script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs\n'}
+[17.171055] (mybot_py_programs) StdoutLine: {'line': b'Installing simple_subscriber script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs\n'}
+[17.171212] (mybot_py_programs) StdoutLine: {'line': b'Installing simple_tf_kinematics script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs\n'}
+[17.196494] (mybot_py_programs) StdoutLine: {'line': b'Installing simple_turtlesim_kinematics script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs\n'}
+[17.196798] (mybot_py_programs) StdoutLine: {'line': b"writing list of installed files to '/home/uditr/mybot_ws/build/mybot_py_programs/install.log'\n"}
+[17.217667] (mybot_py_programs) CommandEnded: {'returncode': 0}
+[17.224180] (mybot_py_programs) JobEnded: {'identifier': 'mybot_py_programs', 'rc': 0}
+[17.224661] (-) EventReactorShutdown: {}

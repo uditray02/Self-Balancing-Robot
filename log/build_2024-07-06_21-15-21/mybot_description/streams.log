@@ -1,0 +1,52 @@
+[0.901s] Invoking command in '/home/uditr/mybot_ws/build/mybot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_description -- -j8 -l8
+[7.200s] Invoked command in '/home/uditr/mybot_ws/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_description -- -j8 -l8
+[7.216s] Invoking command in '/home/uditr/mybot_ws/build/mybot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_description
+[7.244s] -- Install configuration: ""
+[7.306s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/include
+[7.375s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/include/mybot_description
+[7.422s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain
+[7.558s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/wheel_right_link.STL
+[7.558s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/base_link.STL
+[7.558s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/can.STL
+[7.558s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/wheel_left_link.STL
+[7.558s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/caster_front_link.STL
+[7.558s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/imu_link.STL
+[7.558s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/caster_rear_link.STL
+[7.558s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf
+[7.625s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot_ros2_control.xacro
+[7.625s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot_gazebo.xacro
+[7.625s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot.urdf.xacro
+[7.625s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models
+[7.748s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun
+[7.859s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model.sdf
+[7.859s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_4.sdf
+[7.859s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model.config
+[7.859s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_2.sdf
+[7.859s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_3.sdf
+[7.859s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane
+[7.969s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model.sdf
+[7.969s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_4.sdf
+[7.969s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model.config
+[7.969s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_2.sdf
+[7.969s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_3.sdf
+[7.969s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/launch
+[8.009s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/launch/display.launch.py
+[8.009s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/launch/gazebo.launch.py
+[8.009s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/rviz
+[8.075s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/rviz/display.rviz
+[8.076s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/package_run_dependencies/mybot_description
+[8.146s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/parent_prefix_path/mybot_description
+[8.240s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/ament_prefix_path.sh
+[8.240s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/ament_prefix_path.dsv
+[8.240s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/path.sh
+[8.240s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/path.dsv
+[8.240s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.bash
+[8.240s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.sh
+[8.240s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.zsh
+[8.240s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.dsv
+[8.240s] -- Installing: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.dsv
+[8.439s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/packages/mybot_description
+[8.484s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig.cmake
+[8.484s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake
+[8.484s] -- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.xml
+[8.764s] Invoked command in '/home/uditr/mybot_ws/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_description

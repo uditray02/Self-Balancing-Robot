@@ -1,0 +1,4 @@
+Invoking command in '/home/uditr/mybot_ws/build/mybot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_msgs -- -j8 -l8
+Invoked command in '/home/uditr/mybot_ws/build/mybot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_msgs -- -j8 -l8
+Invoking command in '/home/uditr/mybot_ws/build/mybot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_msgs
+Invoked command in '/home/uditr/mybot_ws/build/mybot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_msgs

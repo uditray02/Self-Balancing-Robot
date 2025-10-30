@@ -1,0 +1,42 @@
+[0.159s] Invoking command in '/home/uditr/mybot_ws/src/build/mybot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/uditr/mybot_ws/src/mybot_msgs -DCMAKE_INSTALL_PREFIX=/home/uditr/mybot_ws/src/install/mybot_msgs
+[3.313s] -- The C compiler identification is GNU 11.4.0
+[4.381s] -- The CXX compiler identification is GNU 11.4.0
+[4.458s] -- Detecting C compiler ABI info
+[4.739s] -- Detecting C compiler ABI info - done
+[4.747s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.748s] -- Detecting C compile features
+[4.870s] -- Detecting C compile features - done
+[4.873s] -- Detecting CXX compiler ABI info
+[4.983s] -- Detecting CXX compiler ABI info - done
+[4.991s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.991s] -- Detecting CXX compile features
+[4.991s] -- Detecting CXX compile features - done
+[5.051s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.175s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.346s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.409s] -- Added test 'lint_cmake' to check CMake code style
+[5.410s] -- Added test 'xmllint' to check XML markup files
+[5.475s] -- Configuring done
+[5.477s] -- Generating done
+[5.478s] -- Build files have been written to: /home/uditr/mybot_ws/src/build/mybot_msgs
+[5.482s] Invoked command in '/home/uditr/mybot_ws/src/build/mybot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/uditr/mybot_ws/src/mybot_msgs -DCMAKE_INSTALL_PREFIX=/home/uditr/mybot_ws/src/install/mybot_msgs
+[5.483s] Invoking command in '/home/uditr/mybot_ws/src/build/mybot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/src/build/mybot_msgs -- -j8 -l8
+[5.516s] Invoked command in '/home/uditr/mybot_ws/src/build/mybot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/src/build/mybot_msgs -- -j8 -l8
+[5.539s] Invoking command in '/home/uditr/mybot_ws/src/build/mybot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/src/build/mybot_msgs
+[5.547s] -- Install configuration: ""
+[5.547s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/ament_index/resource_index/package_run_dependencies/mybot_msgs
+[5.547s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/ament_index/resource_index/parent_prefix_path/mybot_msgs
+[5.547s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/environment/ament_prefix_path.sh
+[5.547s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/environment/ament_prefix_path.dsv
+[5.547s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/environment/path.sh
+[5.547s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/environment/path.dsv
+[5.547s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/local_setup.bash
+[5.547s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/local_setup.sh
+[5.547s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/local_setup.zsh
+[5.548s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/local_setup.dsv
+[5.548s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/package.dsv
+[5.548s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/ament_index/resource_index/packages/mybot_msgs
+[5.548s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/cmake/mybot_msgsConfig.cmake
+[5.548s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/cmake/mybot_msgsConfig-version.cmake
+[5.548s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_msgs/share/mybot_msgs/package.xml
+[5.550s] Invoked command in '/home/uditr/mybot_ws/src/build/mybot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/src/build/mybot_msgs

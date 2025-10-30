@@ -1,0 +1,409 @@
+[0.000000] (-) TimerEvent: {}
+[0.000391] (mybot_controller) JobQueued: {'identifier': 'mybot_controller', 'dependencies': OrderedDict()}
+[0.000512] (mybot_cpp_programs) JobQueued: {'identifier': 'mybot_cpp_programs', 'dependencies': OrderedDict()}
+[0.000532] (mybot_description) JobQueued: {'identifier': 'mybot_description', 'dependencies': OrderedDict()}
+[0.000661] (mybot_py_programs) JobQueued: {'identifier': 'mybot_py_programs', 'dependencies': OrderedDict()}
+[0.000703] (mybot_controller) JobStarted: {'identifier': 'mybot_controller'}
+[0.099835] (-) TimerEvent: {}
+[0.200110] (-) TimerEvent: {}
+[0.300406] (-) TimerEvent: {}
+[0.400640] (-) TimerEvent: {}
+[0.500878] (-) TimerEvent: {}
+[0.601116] (-) TimerEvent: {}
+[0.701401] (-) TimerEvent: {}
+[0.768089] (mybot_cpp_programs) JobStarted: {'identifier': 'mybot_cpp_programs'}
+[0.801531] (-) TimerEvent: {}
+[0.807207] (mybot_description) JobStarted: {'identifier': 'mybot_description'}
+[0.901655] (-) TimerEvent: {}
+[0.994508] (mybot_py_programs) JobStarted: {'identifier': 'mybot_py_programs'}
+[1.001747] (-) TimerEvent: {}
+[1.101971] (-) TimerEvent: {}
+[1.202490] (-) TimerEvent: {}
+[1.303027] (-) TimerEvent: {}
+[1.328058] (mybot_controller) JobProgress: {'identifier': 'mybot_controller', 'progress': 'cmake'}
+[1.403119] (-) TimerEvent: {}
+[1.464015] (mybot_controller) JobProgress: {'identifier': 'mybot_controller', 'progress': 'build'}
+[1.464146] (mybot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uditr/mybot_ws/build/mybot_controller', '--', '-j8', '-l8'], 'cwd': '/home/uditr/mybot_ws/build/mybot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'uditr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uditr'), ('OLDPWD', '/home/uditr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1668'), ('SYSTEMD_EXEC_PID', '1791'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '101024'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uditr'), ('JOURNAL_STREAM', '8:31520'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uditr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/udit-r-ubun666:@/tmp/.ICE-unix/1764,unix/udit-r-ubun666:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9e0df29dcd474d51bd2f52f2c906998b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N2BCQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f1803c6b-4e5d-4a01-991e-3873185ce273'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uditr/mybot_ws/build/mybot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.895481] (-) TimerEvent: {}
+[1.895595] (mybot_cpp_programs) JobProgress: {'identifier': 'mybot_cpp_programs', 'progress': 'cmake'}
+[1.932344] (mybot_cpp_programs) JobProgress: {'identifier': 'mybot_cpp_programs', 'progress': 'build'}
+[1.932532] (mybot_cpp_programs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uditr/mybot_ws/build/mybot_cpp_programs', '--', '-j8', '-l8'], 'cwd': '/home/uditr/mybot_ws/build/mybot_cpp_programs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'uditr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uditr'), ('OLDPWD', '/home/uditr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1668'), ('SYSTEMD_EXEC_PID', '1791'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '101024'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uditr'), ('JOURNAL_STREAM', '8:31520'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uditr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/udit-r-ubun666:@/tmp/.ICE-unix/1764,unix/udit-r-ubun666:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9e0df29dcd474d51bd2f52f2c906998b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N2BCQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f1803c6b-4e5d-4a01-991e-3873185ce273'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uditr/mybot_ws/build/mybot_cpp_programs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.933974] (mybot_description) JobProgress: {'identifier': 'mybot_description', 'progress': 'cmake'}
+[1.995608] (-) TimerEvent: {}
+[2.095899] (-) TimerEvent: {}
+[2.196239] (-) TimerEvent: {}
+[2.296631] (-) TimerEvent: {}
+[2.396930] (-) TimerEvent: {}
+[2.497307] (-) TimerEvent: {}
+[2.597675] (-) TimerEvent: {}
+[2.607038] (mybot_description) JobProgress: {'identifier': 'mybot_description', 'progress': 'build'}
+[2.607351] (mybot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uditr/mybot_ws/build/mybot_description', '--', '-j8', '-l8'], 'cwd': '/home/uditr/mybot_ws/build/mybot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'uditr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uditr'), ('OLDPWD', '/home/uditr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1668'), ('SYSTEMD_EXEC_PID', '1791'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '101024'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uditr'), ('JOURNAL_STREAM', '8:31520'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uditr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/udit-r-ubun666:@/tmp/.ICE-unix/1764,unix/udit-r-ubun666:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9e0df29dcd474d51bd2f52f2c906998b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N2BCQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f1803c6b-4e5d-4a01-991e-3873185ce273'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uditr/mybot_ws/build/mybot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.697782] (-) TimerEvent: {}
+[2.798146] (-) TimerEvent: {}
+[2.898513] (-) TimerEvent: {}
+[2.998743] (-) TimerEvent: {}
+[3.098999] (-) TimerEvent: {}
+[3.199747] (-) TimerEvent: {}
+[3.300046] (-) TimerEvent: {}
+[3.400419] (-) TimerEvent: {}
+[3.500693] (-) TimerEvent: {}
+[3.600990] (-) TimerEvent: {}
+[3.701258] (-) TimerEvent: {}
+[3.801572] (-) TimerEvent: {}
+[3.901959] (-) TimerEvent: {}
+[4.002297] (-) TimerEvent: {}
+[4.102626] (-) TimerEvent: {}
+[4.202947] (-) TimerEvent: {}
+[4.303214] (-) TimerEvent: {}
+[4.403507] (-) TimerEvent: {}
+[4.503817] (-) TimerEvent: {}
+[4.604115] (-) TimerEvent: {}
+[4.704509] (-) TimerEvent: {}
+[4.804936] (-) TimerEvent: {}
+[4.905245] (-) TimerEvent: {}
+[5.005593] (-) TimerEvent: {}
+[5.105880] (-) TimerEvent: {}
+[5.206298] (-) TimerEvent: {}
+[5.306657] (-) TimerEvent: {}
+[5.406993] (-) TimerEvent: {}
+[5.507385] (-) TimerEvent: {}
+[5.607699] (-) TimerEvent: {}
+[5.708013] (-) TimerEvent: {}
+[5.808418] (-) TimerEvent: {}
+[5.908753] (-) TimerEvent: {}
+[6.009045] (-) TimerEvent: {}
+[6.109351] (-) TimerEvent: {}
+[6.209699] (-) TimerEvent: {}
+[6.310118] (-) TimerEvent: {}
+[6.410445] (-) TimerEvent: {}
+[6.510768] (-) TimerEvent: {}
+[6.611149] (-) TimerEvent: {}
+[6.711552] (-) TimerEvent: {}
+[6.811833] (-) TimerEvent: {}
+[6.912221] (-) TimerEvent: {}
+[7.012608] (-) TimerEvent: {}
+[7.112916] (-) TimerEvent: {}
+[7.213203] (-) TimerEvent: {}
+[7.313503] (-) TimerEvent: {}
+[7.413850] (-) TimerEvent: {}
+[7.514155] (-) TimerEvent: {}
+[7.614523] (-) TimerEvent: {}
+[7.714921] (-) TimerEvent: {}
+[7.815286] (-) TimerEvent: {}
+[7.915589] (-) TimerEvent: {}
+[8.015939] (-) TimerEvent: {}
+[8.116307] (-) TimerEvent: {}
+[8.216711] (-) TimerEvent: {}
+[8.317105] (-) TimerEvent: {}
+[8.417378] (-) TimerEvent: {}
+[8.517759] (-) TimerEvent: {}
+[8.618060] (-) TimerEvent: {}
+[8.718434] (-) TimerEvent: {}
+[8.818809] (-) TimerEvent: {}
+[8.919200] (-) TimerEvent: {}
+[9.019607] (-) TimerEvent: {}
+[9.124875] (-) TimerEvent: {}
+[9.225310] (-) TimerEvent: {}
+[9.325580] (-) TimerEvent: {}
+[9.425851] (-) TimerEvent: {}
+[9.526209] (-) TimerEvent: {}
+[9.626479] (-) TimerEvent: {}
+[9.726813] (-) TimerEvent: {}
+[9.827215] (-) TimerEvent: {}
+[9.927590] (-) TimerEvent: {}
+[10.027952] (-) TimerEvent: {}
+[10.128313] (-) TimerEvent: {}
+[10.228607] (-) TimerEvent: {}
+[10.328870] (-) TimerEvent: {}
+[10.429249] (-) TimerEvent: {}
+[10.529554] (-) TimerEvent: {}
+[10.629948] (-) TimerEvent: {}
+[10.730313] (-) TimerEvent: {}
+[10.830691] (-) TimerEvent: {}
+[10.930996] (-) TimerEvent: {}
+[11.031407] (-) TimerEvent: {}
+[11.131709] (-) TimerEvent: {}
+[11.232001] (-) TimerEvent: {}
+[11.332368] (-) TimerEvent: {}
+[11.432650] (-) TimerEvent: {}
+[11.533038] (-) TimerEvent: {}
+[11.633306] (-) TimerEvent: {}
+[11.733562] (-) TimerEvent: {}
+[11.833844] (-) TimerEvent: {}
+[11.934256] (-) TimerEvent: {}
+[12.034599] (-) TimerEvent: {}
+[12.134990] (-) TimerEvent: {}
+[12.235389] (-) TimerEvent: {}
+[12.335785] (-) TimerEvent: {}
+[12.436122] (-) TimerEvent: {}
+[12.536438] (-) TimerEvent: {}
+[12.636733] (-) TimerEvent: {}
+[12.737008] (-) TimerEvent: {}
+[12.837294] (-) TimerEvent: {}
+[12.937591] (-) TimerEvent: {}
+[13.037911] (-) TimerEvent: {}
+[13.138200] (-) TimerEvent: {}
+[13.238556] (-) TimerEvent: {}
+[13.338944] (-) TimerEvent: {}
+[13.439340] (-) TimerEvent: {}
+[13.539680] (-) TimerEvent: {}
+[13.640051] (-) TimerEvent: {}
+[13.740407] (-) TimerEvent: {}
+[13.840762] (-) TimerEvent: {}
+[13.941104] (-) TimerEvent: {}
+[14.041465] (-) TimerEvent: {}
+[14.141833] (-) TimerEvent: {}
+[14.242107] (-) TimerEvent: {}
+[14.307698] (mybot_cpp_programs) CommandEnded: {'returncode': 0}
+[14.308722] (mybot_controller) CommandEnded: {'returncode': 0}
+[14.309928] (mybot_description) CommandEnded: {'returncode': 0}
+[14.325935] (mybot_cpp_programs) JobProgress: {'identifier': 'mybot_cpp_programs', 'progress': 'install'}
+[14.332519] (mybot_cpp_programs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uditr/mybot_ws/build/mybot_cpp_programs'], 'cwd': '/home/uditr/mybot_ws/build/mybot_cpp_programs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'uditr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uditr'), ('OLDPWD', '/home/uditr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1668'), ('SYSTEMD_EXEC_PID', '1791'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '101024'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uditr'), ('JOURNAL_STREAM', '8:31520'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uditr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/udit-r-ubun666:@/tmp/.ICE-unix/1764,unix/udit-r-ubun666:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9e0df29dcd474d51bd2f52f2c906998b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N2BCQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f1803c6b-4e5d-4a01-991e-3873185ce273'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uditr/mybot_ws/build/mybot_cpp_programs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.333991] (mybot_controller) JobProgress: {'identifier': 'mybot_controller', 'progress': 'install'}
+[14.334348] (mybot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uditr/mybot_ws/build/mybot_controller'], 'cwd': '/home/uditr/mybot_ws/build/mybot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'uditr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uditr'), ('OLDPWD', '/home/uditr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1668'), ('SYSTEMD_EXEC_PID', '1791'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '101024'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uditr'), ('JOURNAL_STREAM', '8:31520'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uditr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/udit-r-ubun666:@/tmp/.ICE-unix/1764,unix/udit-r-ubun666:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9e0df29dcd474d51bd2f52f2c906998b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N2BCQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f1803c6b-4e5d-4a01-991e-3873185ce273'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uditr/mybot_ws/build/mybot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.335160] (mybot_description) JobProgress: {'identifier': 'mybot_description', 'progress': 'install'}
+[14.335405] (mybot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uditr/mybot_ws/build/mybot_description'], 'cwd': '/home/uditr/mybot_ws/build/mybot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'uditr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uditr'), ('OLDPWD', '/home/uditr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1668'), ('SYSTEMD_EXEC_PID', '1791'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '101024'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uditr'), ('JOURNAL_STREAM', '8:31520'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uditr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/udit-r-ubun666:@/tmp/.ICE-unix/1764,unix/udit-r-ubun666:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9e0df29dcd474d51bd2f52f2c906998b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N2BCQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f1803c6b-4e5d-4a01-991e-3873185ce273'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uditr/mybot_ws/build/mybot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.342223] (-) TimerEvent: {}
+[14.357853] (mybot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.385981] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/config\n'}
+[14.442336] (-) TimerEvent: {}
+[14.444334] (mybot_cpp_programs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.453758] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/ament_index/resource_index/package_run_dependencies/mybot_cpp_programs\n'}
+[14.455691] (mybot_controller) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/config/mybot_controllers.yaml\n'}
+[14.455816] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/launch\n'}
+[14.464809] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/ament_index/resource_index/parent_prefix_path/mybot_cpp_programs\n'}
+[14.466607] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/ament_prefix_path.sh\n'}
+[14.466728] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/ament_prefix_path.dsv\n'}
+[14.466802] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/path.sh\n'}
+[14.466855] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/path.dsv\n'}
+[14.466908] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.bash\n'}
+[14.466959] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.sh\n'}
+[14.467011] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.zsh\n'}
+[14.467067] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.dsv\n'}
+[14.467116] (mybot_cpp_programs) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.dsv\n'}
+[14.478371] (mybot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.478495] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/include\n'}
+[14.487734] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/ament_index/resource_index/packages/mybot_cpp_programs\n'}
+[14.487938] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/cmake/mybot_cpp_programsConfig.cmake\n'}
+[14.488057] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/cmake/mybot_cpp_programsConfig-version.cmake\n'}
+[14.488121] (mybot_cpp_programs) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.xml\n'}
+[14.489398] (mybot_cpp_programs) CommandEnded: {'returncode': 0}
+[14.499383] (mybot_controller) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/launch/controller.launch.py\n'}
+[14.503001] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/include/mybot_description\n'}
+[14.504453] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain\n'}
+[14.542459] (-) TimerEvent: {}
+[14.588889] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/ament_index/resource_index/package_run_dependencies/mybot_controller\n'}
+[14.613466] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/wheel_right_link.STL\n'}
+[14.613650] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/base_link.STL\n'}
+[14.613705] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/can.STL\n'}
+[14.613754] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/wheel_left_link.STL\n'}
+[14.613795] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/caster_front_link.STL\n'}
+[14.613841] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/imu_link.STL\n'}
+[14.613887] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/caster_rear_link.STL\n'}
+[14.613932] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf\n'}
+[14.613977] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot_ros2_control.xacro\n'}
+[14.614018] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot_gazebo.xacro\n'}
+[14.614063] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot.urdf.xacro\n'}
+[14.614107] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models\n'}
+[14.622029] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/ament_index/resource_index/parent_prefix_path/mybot_controller\n'}
+[14.642630] (-) TimerEvent: {}
+[14.721410] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/ament_prefix_path.sh\n'}
+[14.721732] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/ament_prefix_path.dsv\n'}
+[14.721840] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/path.sh\n'}
+[14.721909] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/environment/path.dsv\n'}
+[14.721951] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.bash\n'}
+[14.721992] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.sh\n'}
+[14.722039] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.zsh\n'}
+[14.722079] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/local_setup.dsv\n'}
+[14.722119] (mybot_controller) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.dsv\n'}
+[14.742735] (-) TimerEvent: {}
+[14.842963] (-) TimerEvent: {}
+[14.943211] (-) TimerEvent: {}
+[15.038937] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/ament_index/resource_index/packages/mybot_controller\n'}
+[15.043314] (-) TimerEvent: {}
+[15.048924] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun\n'}
+[15.053336] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/cmake/mybot_controllerConfig.cmake\n'}
+[15.053460] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/cmake/mybot_controllerConfig-version.cmake\n'}
+[15.053530] (mybot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.xml\n'}
+[15.143433] (-) TimerEvent: {}
+[15.215173] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model.sdf\n'}
+[15.215294] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_4.sdf\n'}
+[15.215360] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model.config\n'}
+[15.215407] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_2.sdf\n'}
+[15.215461] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_3.sdf\n'}
+[15.215511] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane\n'}
+[15.243546] (-) TimerEvent: {}
+[15.303661] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model.sdf\n'}
+[15.303816] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_4.sdf\n'}
+[15.303879] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model.config\n'}
+[15.303941] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_2.sdf\n'}
+[15.304002] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_3.sdf\n'}
+[15.304063] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/launch\n'}
+[15.343660] (-) TimerEvent: {}
+[15.425442] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/launch/display.launch.py\n'}
+[15.425608] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/launch/gazebo.launch.py\n'}
+[15.425678] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/rviz\n'}
+[15.443760] (-) TimerEvent: {}
+[15.544012] (-) TimerEvent: {}
+[15.591446] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/rviz/display.rviz\n'}
+[15.644133] (-) TimerEvent: {}
+[15.662982] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/package_run_dependencies/mybot_description\n'}
+[15.744250] (-) TimerEvent: {}
+[15.762719] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/parent_prefix_path/mybot_description\n'}
+[15.762942] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/ament_prefix_path.sh\n'}
+[15.763007] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/ament_prefix_path.dsv\n'}
+[15.763072] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/path.sh\n'}
+[15.763143] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/path.dsv\n'}
+[15.763197] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.bash\n'}
+[15.763254] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.sh\n'}
+[15.763308] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.zsh\n'}
+[15.763362] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.dsv\n'}
+[15.763416] (mybot_description) StdoutLine: {'line': b'-- Installing: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.dsv\n'}
+[15.833746] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/packages/mybot_description\n'}
+[15.833919] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig.cmake\n'}
+[15.833994] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake\n'}
+[15.834056] (mybot_description) StdoutLine: {'line': b'-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.xml\n'}
+[15.844355] (-) TimerEvent: {}
+[15.906571] (mybot_controller) CommandEnded: {'returncode': 0}
+[15.944479] (-) TimerEvent: {}
+[16.044770] (-) TimerEvent: {}
+[16.145031] (-) TimerEvent: {}
+[16.245383] (-) TimerEvent: {}
+[16.345684] (-) TimerEvent: {}
+[16.445961] (-) TimerEvent: {}
+[16.451099] (mybot_description) CommandEnded: {'returncode': 0}
+[16.546169] (-) TimerEvent: {}
+[16.646547] (-) TimerEvent: {}
+[16.746829] (-) TimerEvent: {}
+[16.847119] (-) TimerEvent: {}
+[16.947483] (-) TimerEvent: {}
+[17.047772] (-) TimerEvent: {}
+[17.148130] (-) TimerEvent: {}
+[17.248487] (-) TimerEvent: {}
+[17.317004] (mybot_cpp_programs) JobEnded: {'identifier': 'mybot_cpp_programs', 'rc': 0}
+[17.322351] (mybot_controller) JobEnded: {'identifier': 'mybot_controller', 'rc': 0}
+[17.348611] (-) TimerEvent: {}
+[17.448977] (-) TimerEvent: {}
+[17.461918] (mybot_description) JobEnded: {'identifier': 'mybot_description', 'rc': 0}
+[17.549060] (-) TimerEvent: {}
+[17.649336] (-) TimerEvent: {}
+[17.749625] (-) TimerEvent: {}
+[17.849891] (-) TimerEvent: {}
+[17.950161] (-) TimerEvent: {}
+[18.050428] (-) TimerEvent: {}
+[18.150754] (-) TimerEvent: {}
+[18.251115] (-) TimerEvent: {}
+[18.400666] (-) TimerEvent: {}
+[18.500918] (-) TimerEvent: {}
+[18.601191] (-) TimerEvent: {}
+[18.795066] (-) TimerEvent: {}
+[18.895350] (-) TimerEvent: {}
+[18.995616] (-) TimerEvent: {}
+[19.095891] (-) TimerEvent: {}
+[19.245642] (-) TimerEvent: {}
+[19.345938] (-) TimerEvent: {}
+[19.446228] (-) TimerEvent: {}
+[19.546524] (-) TimerEvent: {}
+[19.646796] (-) TimerEvent: {}
+[19.747083] (-) TimerEvent: {}
+[19.847330] (-) TimerEvent: {}
+[19.947607] (-) TimerEvent: {}
+[20.047867] (-) TimerEvent: {}
+[20.148129] (-) TimerEvent: {}
+[20.248507] (-) TimerEvent: {}
+[20.348844] (-) TimerEvent: {}
+[20.449087] (-) TimerEvent: {}
+[20.549428] (-) TimerEvent: {}
+[20.649771] (-) TimerEvent: {}
+[20.750086] (-) TimerEvent: {}
+[20.850452] (-) TimerEvent: {}
+[20.950744] (-) TimerEvent: {}
+[21.051125] (-) TimerEvent: {}
+[21.151491] (-) TimerEvent: {}
+[21.251840] (-) TimerEvent: {}
+[21.421704] (-) TimerEvent: {}
+[21.521997] (-) TimerEvent: {}
+[21.622275] (-) TimerEvent: {}
+[21.722551] (-) TimerEvent: {}
+[21.822920] (-) TimerEvent: {}
+[21.923220] (-) TimerEvent: {}
+[22.023508] (-) TimerEvent: {}
+[22.123841] (-) TimerEvent: {}
+[22.224224] (-) TimerEvent: {}
+[22.324515] (-) TimerEvent: {}
+[22.424864] (-) TimerEvent: {}
+[22.525219] (-) TimerEvent: {}
+[22.625495] (-) TimerEvent: {}
+[22.725802] (-) TimerEvent: {}
+[22.826166] (-) TimerEvent: {}
+[22.926438] (-) TimerEvent: {}
+[23.026732] (-) TimerEvent: {}
+[23.127014] (-) TimerEvent: {}
+[23.227399] (-) TimerEvent: {}
+[23.327747] (-) TimerEvent: {}
+[23.428114] (-) TimerEvent: {}
+[23.528488] (-) TimerEvent: {}
+[23.628788] (-) TimerEvent: {}
+[23.729032] (-) TimerEvent: {}
+[23.857162] (-) TimerEvent: {}
+[23.957448] (-) TimerEvent: {}
+[24.057732] (-) TimerEvent: {}
+[24.158060] (-) TimerEvent: {}
+[24.258354] (-) TimerEvent: {}
+[24.358749] (-) TimerEvent: {}
+[24.459125] (-) TimerEvent: {}
+[24.559503] (-) TimerEvent: {}
+[24.659817] (-) TimerEvent: {}
+[24.813304] (-) TimerEvent: {}
+[24.913576] (-) TimerEvent: {}
+[25.013835] (-) TimerEvent: {}
+[25.114119] (-) TimerEvent: {}
+[25.214380] (-) TimerEvent: {}
+[25.314722] (-) TimerEvent: {}
+[25.414979] (-) TimerEvent: {}
+[25.515407] (-) TimerEvent: {}
+[25.615664] (-) TimerEvent: {}
+[25.716017] (-) TimerEvent: {}
+[25.816409] (-) TimerEvent: {}
+[25.916855] (-) TimerEvent: {}
+[26.017123] (-) TimerEvent: {}
+[26.117425] (-) TimerEvent: {}
+[26.200728] (mybot_py_programs) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mybot_py_programs', 'build', '--build-base', '/home/uditr/mybot_ws/build/mybot_py_programs/build', 'install', '--record', '/home/uditr/mybot_ws/build/mybot_py_programs/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/uditr/mybot_ws/src/mybot_py_programs', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'uditr', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/uditr', 'OLDPWD': '/home/uditr', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1668', 'SYSTEMD_EXEC_PID': '1791', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '101024', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'uditr', 'JOURNAL_STREAM': '8:31520', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'uditr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/uditr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/udit-r-ubun666:@/tmp/.ICE-unix/1764,unix/udit-r-ubun666:/tmp/.ICE-unix/1764', 'INVOCATION_ID': '9e0df29dcd474d51bd2f52f2c906998b', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.N2BCQ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f1803c6b-4e5d-4a01-991e-3873185ce273', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/uditr/mybot_ws/build/mybot_py_programs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/uditr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[26.217523] (-) TimerEvent: {}
+[26.317734] (-) TimerEvent: {}
+[26.401457] (mybot_py_programs) StdoutLine: {'line': b'running egg_info\n'}
+[26.401956] (mybot_py_programs) StdoutLine: {'line': b'writing ../../build/mybot_py_programs/mybot_py_programs.egg-info/PKG-INFO\n'}
+[26.417824] (-) TimerEvent: {}
+[26.518078] (-) TimerEvent: {}
+[26.618374] (-) TimerEvent: {}
+[26.718691] (-) TimerEvent: {}
+[26.819035] (-) TimerEvent: {}
+[26.830173] (mybot_py_programs) StdoutLine: {'line': b'writing dependency_links to ../../build/mybot_py_programs/mybot_py_programs.egg-info/dependency_links.txt\n'}
+[26.830338] (mybot_py_programs) StdoutLine: {'line': b'writing entry points to ../../build/mybot_py_programs/mybot_py_programs.egg-info/entry_points.txt\n'}
+[26.830445] (mybot_py_programs) StdoutLine: {'line': b'writing requirements to ../../build/mybot_py_programs/mybot_py_programs.egg-info/requires.txt\n'}
+[26.830521] (mybot_py_programs) StdoutLine: {'line': b'writing top-level names to ../../build/mybot_py_programs/mybot_py_programs.egg-info/top_level.txt\n'}
+[26.832229] (mybot_py_programs) StdoutLine: {'line': b"reading manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'\n"}
+[26.903181] (mybot_py_programs) StdoutLine: {'line': b"writing manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'\n"}
+[26.903321] (mybot_py_programs) StdoutLine: {'line': b'running build\n'}
+[26.903393] (mybot_py_programs) StdoutLine: {'line': b'running build_py\n'}
+[26.919133] (-) TimerEvent: {}
+[27.019355] (-) TimerEvent: {}
+[27.073695] (mybot_py_programs) StdoutLine: {'line': b'running install\n'}
+[27.074062] (mybot_py_programs) StdoutLine: {'line': b'running install_lib\n'}
+[27.095676] (mybot_py_programs) StdoutLine: {'line': b'running install_data\n'}
+[27.095825] (mybot_py_programs) StdoutLine: {'line': b'running install_egg_info\n'}
+[27.097200] (mybot_py_programs) StdoutLine: {'line': b"removing '/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[27.097457] (mybot_py_programs) StdoutLine: {'line': b'Copying ../../build/mybot_py_programs/mybot_py_programs.egg-info to /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info\n'}
+[27.119544] (-) TimerEvent: {}
+[27.151594] (mybot_py_programs) StdoutLine: {'line': b'running install_scripts\n'}
+[27.166269] (mybot_py_programs) StdoutLine: {'line': b'Installing simple_parameter script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs\n'}
+[27.184514] (mybot_py_programs) StdoutLine: {'line': b'Installing simple_publisher script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs\n'}
+[27.184745] (mybot_py_programs) StdoutLine: {'line': b'Installing simple_subscriber script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs\n'}
+[27.184915] (mybot_py_programs) StdoutLine: {'line': b"writing list of installed files to '/home/uditr/mybot_ws/build/mybot_py_programs/install.log'\n"}
+[27.203300] (mybot_py_programs) CommandEnded: {'returncode': 0}
+[27.219636] (-) TimerEvent: {}
+[27.319947] (-) TimerEvent: {}
+[27.420297] (-) TimerEvent: {}
+[27.520698] (-) TimerEvent: {}
+[27.575268] (mybot_py_programs) JobEnded: {'identifier': 'mybot_py_programs', 'rc': 0}
+[27.575892] (-) EventReactorShutdown: {}

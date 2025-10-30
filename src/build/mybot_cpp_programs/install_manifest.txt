@@ -1,0 +1,15 @@
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/ament_index/resource_index/package_run_dependencies/mybot_cpp_programs
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/ament_index/resource_index/parent_prefix_path/mybot_cpp_programs
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/ament_prefix_path.sh
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/ament_prefix_path.dsv
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/path.sh
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/mybot_cpp_programs/environment/path.dsv
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.bash
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.sh
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.zsh
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/mybot_cpp_programs/local_setup.dsv
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/mybot_cpp_programs/package.dsv
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/ament_index/resource_index/packages/mybot_cpp_programs
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/mybot_cpp_programs/cmake/mybot_cpp_programsConfig.cmake
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/mybot_cpp_programs/cmake/mybot_cpp_programsConfig-version.cmake
+/home/uditr/mybot_ws/src/install/mybot_cpp_programs/share/mybot_cpp_programs/package.xml

@@ -1,0 +1,50 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/uditr/mybot_ws/build/mybot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/base_link.STL
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/can.STL
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/caster_front_link.STL
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/caster_rear_link.STL
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/imu_link.STL
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/wheel_left_link.STL
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/wheel_right_link.STL
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot.urdf.xacro
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot_gazebo.xacro
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot_ros2_control.xacro
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_2.sdf
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_3.sdf
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_4.sdf
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model.config
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model.sdf
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_2.sdf
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_3.sdf
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_4.sdf
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model.config
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model.sdf
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/launch/display.launch.py
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/launch/gazebo.launch.py
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/rviz/display.rviz
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/package_run_dependencies/mybot_description
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/parent_prefix_path/mybot_description
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/path.sh
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/path.dsv
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.bash
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.sh
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.zsh
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.dsv
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.dsv
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/packages/mybot_description
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig.cmake
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake
+-- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.xml

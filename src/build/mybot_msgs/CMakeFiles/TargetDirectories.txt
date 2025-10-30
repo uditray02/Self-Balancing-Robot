@@ -1,0 +1,9 @@
+/home/uditr/mybot_ws/src/build/mybot_msgs/CMakeFiles/uninstall.dir
+/home/uditr/mybot_ws/src/build/mybot_msgs/CMakeFiles/mybot_msgs_uninstall.dir
+/home/uditr/mybot_ws/src/build/mybot_msgs/CMakeFiles/test.dir
+/home/uditr/mybot_ws/src/build/mybot_msgs/CMakeFiles/edit_cache.dir
+/home/uditr/mybot_ws/src/build/mybot_msgs/CMakeFiles/rebuild_cache.dir
+/home/uditr/mybot_ws/src/build/mybot_msgs/CMakeFiles/list_install_components.dir
+/home/uditr/mybot_ws/src/build/mybot_msgs/CMakeFiles/install.dir
+/home/uditr/mybot_ws/src/build/mybot_msgs/CMakeFiles/install/local.dir
+/home/uditr/mybot_ws/src/build/mybot_msgs/CMakeFiles/install/strip.dir

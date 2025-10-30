@@ -1,0 +1,82 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100 # Hz
+    use_sim_time: true
+ 
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+ 
+    simple_velocity_controller:  #1
+      type: velocity_controllers/JointGroupVelocityController
+
+    mybot_controller:  #2
+      type: diff_drive_controller/DiffDriveController
+
+ #we can decide during controlling that which one we should start..... To do so, after this, we have to modify the controller.launch.py
+ 
+simple_velocity_controller:   #1 Controller for the robot
+  ros__parameters:
+    joints:
+      - wheel_left_joint
+      - wheel_right_joint
+
+#configuring the controller
+
+mybot_controller:            #2 Controlller for the robot
+  ros__parameters:
+  type: diff_drive_controller/DiffDriveController
+  use_stamped_vel: true #to use TwistStamped msgs
+  left_wheel_names: ['wheel_left_joint'] #names of joints for wheels
+  right_wheel_names: ['wheel_right_joint']
+  publish_rate: 50.0 
+  pose_covariance_diagonal: [0.01, 0.001, 1.0e-3, 1.0e-3, 1.0e-3, 0.01] #represents the covariance matrix of the pose of the robot 
+  twist_covariance_diagonal: [0.01, 0.001, 1.0e-3, 1.0e-3, 1.0e-3, 0.01] #represents the covariance matrix of the twsitstamp messages of the robot
+
+  wheel_radius: 0.033
+  wheel_separation: 0.17
+  #Dont want multipler, so we are setting the multipliers in their default value -  Want both of the wheels to be intact and exact...
+  left_wheel_radius_multiplier: 1.0
+  right_wheel_radius_multiplier: 1.0
+  wheel_separation_multiplier: 1.0
+
+  cmd_vel_timeout: 0.25 # if within this time, we dont receive any kind of velocity commands, the robot will automaticaly stop.
+  base_frame_id: base_footprint
+  publish_limited_velocity: true #limit publishing the velocities and not creating any kind of traffic
+  publish_wheel_data: true
+  enable_odom_tf: true
+
+  #setting some velocity limits to both angular and linear velocities of the robot
+
+  #first - limiting the linear velocity of the robot and also limiting the linear velocity along the X-direction of the reference of the robot
+  linear:
+    x:
+      has_velocity_limits: true #setting velocity limits
+      max_velocity: 1.0
+      min_velocity: -0.5
+      
+      has_acceleration_limits: true #setting acceleration limits
+      max_acceleration: 1.0
+      min_acceleration: -0.4
+
+      has_jerk_limits: false #setting the jerk limits to False as we want the self balancing robot ot be jerk-less regardless having the gyro ( we dont want to LIMIT the jerk)
+      #max_jerking: 0.0
+      #min_jerking: 0.0
+  
+  angular:
+    z:
+      has_velocity_limits: true
+      max_velocity: 1.7
+      min_velocity: -1.7
+      
+      has_acceleration_limits: true #setting acceleration limits
+      max_acceleration: 1.5
+      min_acceleration: -1.5
+
+      has_jerk_limits: false #setting the jerk limits to False as we want the self balancing robot ot be jerk-less regardless having the gyro(Dont wanna LIMIT THE JERK)
+      #max_jerking: 0.0
+      #min_jerking: 0.0
+
+
+
+
+  

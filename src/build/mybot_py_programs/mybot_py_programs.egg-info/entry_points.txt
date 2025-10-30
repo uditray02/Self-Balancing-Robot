@@ -1,0 +1,8 @@
+[console_scripts]
+simple_controller = mybot_controller.simple_controller:main
+simple_parameter = mybot_py_programs.simple_parameter:main
+simple_publisher = mybot_py_programs.simple_publisher:main
+simple_subscriber = mybot_py_programs.simple_subscriber:main
+simple_tf_kinematics = mybot_py_programs.simple_tf_kinematics:main
+simple_turtlesim_kinematics = mybot_py_programs.simple_turtlesim_kinematics:main
+

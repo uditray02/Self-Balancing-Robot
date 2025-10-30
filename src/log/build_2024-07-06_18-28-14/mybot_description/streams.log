@@ -1,0 +1,74 @@
+[0.340s] Invoking command in '/home/uditr/mybot_ws/src/build/mybot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/uditr/mybot_ws/src/mybot_description -DCMAKE_INSTALL_PREFIX=/home/uditr/mybot_ws/src/install/mybot_description
+[15.922s] -- The C compiler identification is GNU 11.4.0
+[23.203s] -- The CXX compiler identification is GNU 11.4.0
+[24.893s] -- Detecting C compiler ABI info
+[26.019s] -- Detecting C compiler ABI info - done
+[26.031s] -- Check for working C compiler: /usr/bin/cc - skipped
+[26.054s] -- Detecting C compile features
+[26.098s] -- Detecting C compile features - done
+[26.197s] -- Detecting CXX compiler ABI info
+[26.553s] -- Detecting CXX compiler ABI info - done
+[26.561s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[26.561s] -- Detecting CXX compile features
+[26.562s] -- Detecting CXX compile features - done
+[27.204s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[29.357s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[32.792s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[34.020s] -- Added test 'flake8' to check Python code syntax and style conventions
+[34.021s] -- Added test 'lint_cmake' to check CMake code style
+[34.021s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[34.023s] -- Added test 'xmllint' to check XML markup files
+[34.024s] -- Configuring done
+[34.026s] -- Generating done
+[34.027s] -- Build files have been written to: /home/uditr/mybot_ws/src/build/mybot_description
+[34.031s] Invoked command in '/home/uditr/mybot_ws/src/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/uditr/mybot_ws/src/mybot_description -DCMAKE_INSTALL_PREFIX=/home/uditr/mybot_ws/src/install/mybot_description
+[34.032s] Invoking command in '/home/uditr/mybot_ws/src/build/mybot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/src/build/mybot_description -- -j8 -l8
+[34.065s] Invoked command in '/home/uditr/mybot_ws/src/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/src/build/mybot_description -- -j8 -l8
+[34.090s] Invoking command in '/home/uditr/mybot_ws/src/build/mybot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/src/build/mybot_description
+[34.101s] -- Install configuration: ""
+[34.101s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/meshesmain
+[34.102s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/meshesmain/wheel_right_link.STL
+[34.575s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/meshesmain/base_link.STL
+[37.380s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/meshesmain/can.STL
+[37.550s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/meshesmain/wheel_left_link.STL
+[37.748s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/meshesmain/caster_front_link.STL
+[37.869s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/meshesmain/imu_link.STL
+[37.975s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/meshesmain/caster_rear_link.STL
+[38.091s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/urdf
+[38.091s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/urdf/mybot_ros2_control.xacro
+[38.091s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/urdf/mybot_gazebo.xacro
+[38.092s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/urdf/mybot.urdf.xacro
+[38.132s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/models
+[38.136s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/models/sun
+[38.136s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/models/sun/model.sdf
+[38.235s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/models/sun/model-1_4.sdf
+[38.314s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/models/sun/model.config
+[38.331s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/models/sun/model-1_2.sdf
+[38.333s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/models/sun/model-1_3.sdf
+[38.562s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/models/ground_plane
+[38.562s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/models/ground_plane/model.sdf
+[39.149s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/models/ground_plane/model-1_4.sdf
+[39.176s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/models/ground_plane/model.config
+[39.177s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/models/ground_plane/model-1_2.sdf
+[39.265s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/models/ground_plane/model-1_3.sdf
+[39.302s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/launch
+[39.302s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/launch/display.launch.py
+[39.315s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/launch/gazebo.launch.py
+[39.315s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/rviz
+[39.315s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/rviz/display.rviz
+[39.374s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/ament_index/resource_index/package_run_dependencies/mybot_description
+[39.374s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/ament_index/resource_index/parent_prefix_path/mybot_description
+[39.374s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/environment/ament_prefix_path.sh
+[39.374s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/environment/ament_prefix_path.dsv
+[39.374s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/environment/path.sh
+[39.374s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/environment/path.dsv
+[39.374s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/local_setup.bash
+[39.374s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/local_setup.sh
+[39.375s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/local_setup.zsh
+[39.375s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/local_setup.dsv
+[39.375s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/package.dsv
+[39.375s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/ament_index/resource_index/packages/mybot_description
+[39.375s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig.cmake
+[39.375s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake
+[39.375s] -- Installing: /home/uditr/mybot_ws/src/install/mybot_description/share/mybot_description/package.xml
+[39.378s] Invoked command in '/home/uditr/mybot_ws/src/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/src/build/mybot_description

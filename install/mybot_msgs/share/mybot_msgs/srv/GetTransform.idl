@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mybot_msgs/srv/GetTransform.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/TransformStamped.idl"
+
+module mybot_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Request" "\n"
+      "names of the frames we wanna transform")
+    struct GetTransform_Request {
+      @verbatim (language="comment", text=
+        "The ID of the reference frame from which the transformation is requested.")
+      string frame_id;
+
+      @verbatim (language="comment", text=
+        "The ID of the target frame to which the transformation is requested.")
+      string child_frame_id;
+    };
+    struct GetTransform_Response {
+      @verbatim (language="comment", text=
+        "Response" "\n"
+        " The transformation from the frame_id to the child_frame_id. This includes translation and rotation information.")
+      geometry_msgs::msg::TransformStamped transform;
+
+      @verbatim (language="comment", text=
+        "A boolean flag indicating whether the transformation was successful or not.")
+      boolean success;
+    };
+  };
+};

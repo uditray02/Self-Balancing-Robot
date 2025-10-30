@@ -1,0 +1,8 @@
+Built target ament_cmake_python_symlink_mybot_controller
+running egg_info
+writing mybot_controller.egg-info/PKG-INFO
+writing dependency_links to mybot_controller.egg-info/dependency_links.txt
+writing top-level names to mybot_controller.egg-info/top_level.txt
+reading manifest file 'mybot_controller.egg-info/SOURCES.txt'
+writing manifest file 'mybot_controller.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_mybot_controller_egg

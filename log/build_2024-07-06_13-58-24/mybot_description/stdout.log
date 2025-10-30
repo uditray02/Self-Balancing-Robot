@@ -1,0 +1,38 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/uditr/mybot_ws/build/mybot_description
+-- Install configuration: ""
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/wheel_right_link.STL
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/base_link.STL
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/wheel_left_link.STL
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/caster_front_link.STL
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/imu_link.STL
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/caster_rear_link.STL
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf
+-- Installing: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot.urdf.xacro
+-- Installing: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/launch
+-- Installing: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/launch/display.launch.py
+-- Installing: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/rviz
+-- Installing: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/rviz/display.rviz
+-- Installing: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/package_run_dependencies/mybot_description
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/parent_prefix_path/mybot_description
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/ament_prefix_path.sh
+-- Installing: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/path.sh
+-- Installing: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/path.dsv
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.bash
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.sh
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.zsh
+-- Installing: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.dsv
+-- Installing: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.dsv
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/packages/mybot_description
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig.cmake
+-- Up-to-date: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake
+-- Installing: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.xml

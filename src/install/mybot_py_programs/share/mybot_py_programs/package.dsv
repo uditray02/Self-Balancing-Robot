@@ -1,0 +1,6 @@
+source;share/mybot_py_programs/hook/pythonpath.ps1
+source;share/mybot_py_programs/hook/pythonpath.dsv
+source;share/mybot_py_programs/hook/pythonpath.sh
+source;share/mybot_py_programs/hook/ament_prefix_path.ps1
+source;share/mybot_py_programs/hook/ament_prefix_path.dsv
+source;share/mybot_py_programs/hook/ament_prefix_path.sh

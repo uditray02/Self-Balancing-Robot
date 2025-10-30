@@ -1,0 +1,28 @@
+[3.309s] Invoking command in '/home/uditr/mybot_ws/src/mybot_py_programs': PYTHONPATH=/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_py_programs build --build-base /home/uditr/mybot_ws/build/mybot_py_programs/build install --record /home/uditr/mybot_ws/build/mybot_py_programs/install.log --single-version-externally-managed install_data
+[4.029s] running egg_info
+[4.031s] writing ../../build/mybot_py_programs/mybot_py_programs.egg-info/PKG-INFO
+[4.031s] writing dependency_links to ../../build/mybot_py_programs/mybot_py_programs.egg-info/dependency_links.txt
+[4.032s] writing entry points to ../../build/mybot_py_programs/mybot_py_programs.egg-info/entry_points.txt
+[4.032s] writing requirements to ../../build/mybot_py_programs/mybot_py_programs.egg-info/requires.txt
+[4.032s] writing top-level names to ../../build/mybot_py_programs/mybot_py_programs.egg-info/top_level.txt
+[4.037s] reading manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+[4.047s] writing manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+[4.047s] running build
+[4.047s] running build_py
+[4.048s] copying mybot_py_programs/mbappe_kinematics.py -> /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs
+[4.048s] running install
+[4.049s] running install_lib
+[4.052s] copying /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs/mbappe_kinematics.py -> /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs
+[4.054s] byte-compiling /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs/mbappe_kinematics.py to mbappe_kinematics.cpython-310.pyc
+[4.055s] running install_data
+[4.056s] copying package.xml -> /home/uditr/mybot_ws/install/mybot_py_programs/share/mybot_py_programs
+[4.056s] running install_egg_info
+[4.062s] removing '/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info' (and everything under it)
+[4.062s] Copying ../../build/mybot_py_programs/mybot_py_programs.egg-info to /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info
+[4.071s] running install_scripts
+[4.131s] Installing simple_parameter script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[4.132s] Installing simple_publisher script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[4.132s] Installing simple_subscriber script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[4.132s] Installing simple_turtlesim_kinematics script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[4.313s] writing list of installed files to '/home/uditr/mybot_ws/build/mybot_py_programs/install.log'
+[4.359s] Invoked command in '/home/uditr/mybot_ws/src/mybot_py_programs' returned '0': PYTHONPATH=/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_py_programs build --build-base /home/uditr/mybot_ws/build/mybot_py_programs/build install --record /home/uditr/mybot_ws/build/mybot_py_programs/install.log --single-version-externally-managed install_data

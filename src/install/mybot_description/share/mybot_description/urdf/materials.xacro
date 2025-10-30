@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<robot name="mybot" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+  <!-- Define a unique material -->
+  <material name="unique_teal_blue">
+    <color rgba="0.0 0.5 0.5 0.8"/> <!-- Teal-blue with 80% opacity -->
+  </material>
+
+</robot>

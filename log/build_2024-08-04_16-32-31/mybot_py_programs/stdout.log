@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/mybot_py_programs/mybot_py_programs.egg-info/PKG-INFO
+writing dependency_links to ../../build/mybot_py_programs/mybot_py_programs.egg-info/dependency_links.txt
+writing entry points to ../../build/mybot_py_programs/mybot_py_programs.egg-info/entry_points.txt
+writing requirements to ../../build/mybot_py_programs/mybot_py_programs.egg-info/requires.txt
+writing top-level names to ../../build/mybot_py_programs/mybot_py_programs.egg-info/top_level.txt
+reading manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+writing manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mybot_py_programs/simple_service_client.py -> /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs
+running install
+running install_lib
+copying /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs/simple_service_client.py -> /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs
+byte-compiling /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs/simple_service_client.py to simple_service_client.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mybot_py_programs/mybot_py_programs.egg-info to /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info
+running install_scripts
+Installing simple_controller script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+Installing simple_parameter script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+Installing simple_publisher script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+Installing simple_service_client script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+Installing simple_service_server script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+Installing simple_subscriber script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+Installing simple_tf_kinematics script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+Installing simple_turtlesim_kinematics script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+writing list of installed files to '/home/uditr/mybot_ws/build/mybot_py_programs/install.log'

@@ -1,0 +1,31 @@
+[0.731s] Invoking command in '/home/uditr/mybot_ws/src/mybot_py_programs': AMENT_PREFIX_PATH=/home/uditr/mybot_ws/install/mybot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uditr/mybot_ws/install/mybot_msgs LD_LIBRARY_PATH=/home/uditr/mybot_ws/install/mybot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:/home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_py_programs build --build-base /home/uditr/mybot_ws/build/mybot_py_programs/build install --record /home/uditr/mybot_ws/build/mybot_py_programs/install.log --single-version-externally-managed install_data
+[1.020s] running egg_info
+[1.021s] writing ../../build/mybot_py_programs/mybot_py_programs.egg-info/PKG-INFO
+[1.021s] writing dependency_links to ../../build/mybot_py_programs/mybot_py_programs.egg-info/dependency_links.txt
+[1.021s] writing entry points to ../../build/mybot_py_programs/mybot_py_programs.egg-info/entry_points.txt
+[1.021s] writing requirements to ../../build/mybot_py_programs/mybot_py_programs.egg-info/requires.txt
+[1.021s] writing top-level names to ../../build/mybot_py_programs/mybot_py_programs.egg-info/top_level.txt
+[1.023s] reading manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+[1.024s] writing manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+[1.024s] running build
+[1.024s] running build_py
+[1.025s] copying mybot_py_programs/simple_service_client.py -> /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs
+[1.025s] running install
+[1.025s] running install_lib
+[1.026s] copying /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs/simple_service_client.py -> /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs
+[1.027s] byte-compiling /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs/simple_service_client.py to simple_service_client.cpython-310.pyc
+[1.028s] running install_data
+[1.028s] running install_egg_info
+[1.029s] removing '/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info' (and everything under it)
+[1.030s] Copying ../../build/mybot_py_programs/mybot_py_programs.egg-info to /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info
+[1.030s] running install_scripts
+[1.050s] Installing simple_controller script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[1.050s] Installing simple_parameter script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[1.050s] Installing simple_publisher script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[1.050s] Installing simple_service_client script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[1.050s] Installing simple_service_server script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[1.050s] Installing simple_subscriber script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[1.050s] Installing simple_tf_kinematics script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[1.050s] Installing simple_turtlesim_kinematics script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[1.051s] writing list of installed files to '/home/uditr/mybot_ws/build/mybot_py_programs/install.log'
+[1.074s] Invoked command in '/home/uditr/mybot_ws/src/mybot_py_programs' returned '0': AMENT_PREFIX_PATH=/home/uditr/mybot_ws/install/mybot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uditr/mybot_ws/install/mybot_msgs LD_LIBRARY_PATH=/home/uditr/mybot_ws/install/mybot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:/home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_py_programs build --build-base /home/uditr/mybot_ws/build/mybot_py_programs/build install --record /home/uditr/mybot_ws/build/mybot_py_programs/install.log --single-version-externally-managed install_data

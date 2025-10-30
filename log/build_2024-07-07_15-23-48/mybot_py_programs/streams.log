@@ -1,0 +1,39 @@
+[0.685s] Invoking command in '/home/uditr/mybot_ws/build/mybot_py_programs': PYTHONPATH=/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/uditr/mybot_ws/build/mybot_py_programs/build
+[0.902s] running develop
+[0.902s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.902s]   warnings.warn(
+[1.052s] Removing /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot-py-programs.egg-link (link to .)
+[1.079s] Invoked command in '/home/uditr/mybot_ws/build/mybot_py_programs' returned '0': PYTHONPATH=/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/uditr/mybot_ws/build/mybot_py_programs/build
+[1.081s] Invoking command in '/home/uditr/mybot_ws/src/mybot_py_programs': PYTHONPATH=/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_py_programs build --build-base /home/uditr/mybot_ws/build/mybot_py_programs/build install --record /home/uditr/mybot_ws/build/mybot_py_programs/install.log --single-version-externally-managed install_data --force
+[1.281s] running egg_info
+[1.281s] writing ../../build/mybot_py_programs/mybot_py_programs.egg-info/PKG-INFO
+[1.282s] writing dependency_links to ../../build/mybot_py_programs/mybot_py_programs.egg-info/dependency_links.txt
+[1.282s] writing entry points to ../../build/mybot_py_programs/mybot_py_programs.egg-info/entry_points.txt
+[1.282s] writing requirements to ../../build/mybot_py_programs/mybot_py_programs.egg-info/requires.txt
+[1.282s] writing top-level names to ../../build/mybot_py_programs/mybot_py_programs.egg-info/top_level.txt
+[1.283s] reading manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+[1.284s] writing manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+[1.284s] running build
+[1.284s] running build_py
+[1.284s] running install
+[1.284s] running install_lib
+[1.285s] creating /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs
+[1.285s] copying /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs/__init__.py -> /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs
+[1.285s] copying /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs/simple_publisher.py -> /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs
+[1.285s] copying /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs/simple_parameter.py -> /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs
+[1.285s] copying /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs/simple_subscriber.py -> /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs
+[1.286s] byte-compiling /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs/__init__.py to __init__.cpython-310.pyc
+[1.286s] byte-compiling /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs/simple_publisher.py to simple_publisher.cpython-310.pyc
+[1.286s] byte-compiling /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs/simple_parameter.py to simple_parameter.cpython-310.pyc
+[1.286s] byte-compiling /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[1.287s] running install_data
+[1.287s] copying resource/mybot_py_programs -> /home/uditr/mybot_ws/install/mybot_py_programs/share/ament_index/resource_index/packages
+[1.287s] copying package.xml -> /home/uditr/mybot_ws/install/mybot_py_programs/share/mybot_py_programs
+[1.287s] running install_egg_info
+[1.288s] Copying ../../build/mybot_py_programs/mybot_py_programs.egg-info to /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info
+[1.289s] running install_scripts
+[1.305s] Installing simple_parameter script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[1.305s] Installing simple_publisher script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[1.305s] Installing simple_subscriber script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[1.305s] writing list of installed files to '/home/uditr/mybot_ws/build/mybot_py_programs/install.log'
+[1.326s] Invoked command in '/home/uditr/mybot_ws/src/mybot_py_programs' returned '0': PYTHONPATH=/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_py_programs build --build-base /home/uditr/mybot_ws/build/mybot_py_programs/build install --record /home/uditr/mybot_ws/build/mybot_py_programs/install.log --single-version-externally-managed install_data --force

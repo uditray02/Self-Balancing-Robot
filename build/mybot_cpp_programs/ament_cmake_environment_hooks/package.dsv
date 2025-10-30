@@ -1,0 +1,4 @@
+source;share/mybot_cpp_programs/local_setup.bash
+source;share/mybot_cpp_programs/local_setup.dsv
+source;share/mybot_cpp_programs/local_setup.sh
+source;share/mybot_cpp_programs/local_setup.zsh

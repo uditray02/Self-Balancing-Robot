@@ -1,0 +1,11 @@
+/home/uditr/mybot_ws/src/build/mybot_controller/CMakeFiles/uninstall.dir
+/home/uditr/mybot_ws/src/build/mybot_controller/CMakeFiles/mybot_controller_uninstall.dir
+/home/uditr/mybot_ws/src/build/mybot_controller/CMakeFiles/ament_cmake_python_copy_mybot_controller.dir
+/home/uditr/mybot_ws/src/build/mybot_controller/CMakeFiles/ament_cmake_python_build_mybot_controller_egg.dir
+/home/uditr/mybot_ws/src/build/mybot_controller/CMakeFiles/test.dir
+/home/uditr/mybot_ws/src/build/mybot_controller/CMakeFiles/edit_cache.dir
+/home/uditr/mybot_ws/src/build/mybot_controller/CMakeFiles/rebuild_cache.dir
+/home/uditr/mybot_ws/src/build/mybot_controller/CMakeFiles/list_install_components.dir
+/home/uditr/mybot_ws/src/build/mybot_controller/CMakeFiles/install.dir
+/home/uditr/mybot_ws/src/build/mybot_controller/CMakeFiles/install/local.dir
+/home/uditr/mybot_ws/src/build/mybot_controller/CMakeFiles/install/strip.dir

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<!-- Define the root element of the robot description with the robot's name and XML namespace for xacro -->
+<robot name="mybot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- Define the ROS 2 control configuration for the robot -->
+    <ros2_control type="system" name="RobotSystem">
+        <!-- Specify the hardware interface plugin to be used for ROS 2 control -->
+        <hardware>
+            <!-- Plugin for integrating with Gazebo simulation -->
+            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+        </hardware>
+
+        <!-- Define control interfaces for the right wheel joint -->
+        <joint name="wheel_right_joint">
+            <!-- Command interface for controlling the joint velocity -->
+            <command_interface name="velocity">
+                <!-- Minimum velocity command value -->
+                <param name="min">-1</param>
+                <!-- Maximum velocity command value -->
+                <param name="max">1</param>
+            </command_interface>
+            <!-- State interface for reading the joint position -->
+            <state_interface name="position"/>
+            <!-- State interface for reading the joint velocity -->
+            <state_interface name="velocity"/>
+        </joint>
+
+        <!-- Define control interfaces for the left wheel joint -->
+        <joint name="wheel_left_joint">
+            <!-- Command interface for controlling the joint velocity -->
+            <command_interface name="velocity">
+                <!-- Minimum velocity command value -->
+                <param name="min">-1</param>
+                <!-- Maximum velocity command value -->
+                <param name="max">1</param>
+            </command_interface>
+            <!-- State interface for reading the joint position -->
+            <state_interface name="position"/>
+            <!-- State interface for reading the joint velocity -->
+            <state_interface name="velocity"/>
+        </joint>
+    </ros2_control>
+
+</robot>

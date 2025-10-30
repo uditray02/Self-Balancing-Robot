@@ -1,0 +1,56 @@
+[0.025s] Invoking command in '/home/uditr/mybot_ws/build/mybot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uditr/mybot_ws/install/mybot_py_programs:/opt/ros/humble /usr/bin/cmake /home/uditr/mybot_ws/src/mybot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uditr/mybot_ws/install/mybot_description
+[0.413s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.804s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.478s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.757s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.759s] -- Added test 'lint_cmake' to check CMake code style
+[1.759s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.761s] -- Added test 'xmllint' to check XML markup files
+[1.792s] -- Configuring done
+[1.975s] -- Generating done
+[1.977s] -- Build files have been written to: /home/uditr/mybot_ws/build/mybot_description
+[1.983s] Invoked command in '/home/uditr/mybot_ws/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uditr/mybot_ws/install/mybot_py_programs:/opt/ros/humble /usr/bin/cmake /home/uditr/mybot_ws/src/mybot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uditr/mybot_ws/install/mybot_description
+[1.985s] Invoking command in '/home/uditr/mybot_ws/build/mybot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uditr/mybot_ws/install/mybot_py_programs:/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_description -- -j8 -l8
+[2.109s] Invoked command in '/home/uditr/mybot_ws/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uditr/mybot_ws/install/mybot_py_programs:/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_description -- -j8 -l8
+[2.207s] Invoking command in '/home/uditr/mybot_ws/build/mybot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uditr/mybot_ws/install/mybot_py_programs:/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_description
+[2.221s] -- Install configuration: ""
+[2.222s] -- Execute custom install script
+[2.223s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/base_link.STL
+[2.245s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/can.STL
+[2.261s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/caster_front_link.STL
+[2.276s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/caster_rear_link.STL
+[2.295s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/imu_link.STL
+[2.313s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/wheel_left_link.STL
+[2.331s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/meshesmain/wheel_right_link.STL
+[2.357s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot.urdf.xacro
+[2.375s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot_gazebo.xacro
+[2.391s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/urdf/mybot_ros2_control.xacro
+[2.408s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_2.sdf
+[2.425s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_3.sdf
+[2.442s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model-1_4.sdf
+[2.456s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model.config
+[2.472s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/ground_plane/model.sdf
+[2.487s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_2.sdf
+[2.503s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_3.sdf
+[2.522s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model-1_4.sdf
+[2.535s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model.config
+[2.548s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/models/sun/model.sdf
+[2.565s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/launch/display.launch.py
+[2.580s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/launch/gazebo.launch.py
+[2.594s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/rviz/display.rviz
+[2.617s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/package_run_dependencies/mybot_description
+[2.631s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/parent_prefix_path/mybot_description
+[2.645s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/ament_prefix_path.sh
+[2.658s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/ament_prefix_path.dsv
+[2.672s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/path.sh
+[2.684s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/environment/path.dsv
+[2.697s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.bash
+[2.709s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.sh
+[2.721s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.zsh
+[2.734s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/local_setup.dsv
+[2.746s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.dsv
+[2.758s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/ament_index/resource_index/packages/mybot_description
+[2.771s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig.cmake
+[2.784s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake
+[2.797s] -- Symlinking: /home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.xml
+[2.812s] Invoked command in '/home/uditr/mybot_ws/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uditr/mybot_ws/install/mybot_py_programs:/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_description

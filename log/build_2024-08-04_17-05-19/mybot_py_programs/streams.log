@@ -1,0 +1,35 @@
+[2.431s] Invoking command in '/home/uditr/mybot_ws/src/mybot_py_programs': AMENT_PREFIX_PATH=/home/uditr/mybot_ws/install/mybot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uditr/mybot_ws/install/mybot_msgs LD_LIBRARY_PATH=/home/uditr/mybot_ws/install/mybot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:/home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_py_programs build --build-base /home/uditr/mybot_ws/build/mybot_py_programs/build install --record /home/uditr/mybot_ws/build/mybot_py_programs/install.log --single-version-externally-managed install_data
+[2.663s] running egg_info
+[2.663s] writing ../../build/mybot_py_programs/mybot_py_programs.egg-info/PKG-INFO
+[2.663s] writing dependency_links to ../../build/mybot_py_programs/mybot_py_programs.egg-info/dependency_links.txt
+[2.663s] writing entry points to ../../build/mybot_py_programs/mybot_py_programs.egg-info/entry_points.txt
+[2.664s] writing requirements to ../../build/mybot_py_programs/mybot_py_programs.egg-info/requires.txt
+[2.664s] writing top-level names to ../../build/mybot_py_programs/mybot_py_programs.egg-info/top_level.txt
+[2.665s] reading manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+[2.682s] writing manifest file '../../build/mybot_py_programs/mybot_py_programs.egg-info/SOURCES.txt'
+[2.682s] running build
+[2.682s] running build_py
+[2.682s] copying mybot_py_programs/simple_tf_kinematics.py -> /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs
+[2.682s] copying mybot_py_programs/simple_service_client.py -> /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs
+[2.682s] running install
+[2.683s] running install_lib
+[2.683s] copying /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs/simple_tf_kinematics.py -> /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs
+[2.683s] copying /home/uditr/mybot_ws/build/mybot_py_programs/build/lib/mybot_py_programs/simple_service_client.py -> /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs
+[2.684s] byte-compiling /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs/simple_tf_kinematics.py to simple_tf_kinematics.cpython-310.pyc
+[2.684s] Sorry: IndentationError: expected an indented block after function definition on line 114 (simple_tf_kinematics.py, line 120)
+[2.684s] byte-compiling /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs/simple_service_client.py to simple_service_client.cpython-310.pyc
+[2.700s] running install_data
+[2.700s] running install_egg_info
+[2.702s] removing '/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info' (and everything under it)
+[2.702s] Copying ../../build/mybot_py_programs/mybot_py_programs.egg-info to /home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages/mybot_py_programs-0.0.0-py3.10.egg-info
+[2.702s] running install_scripts
+[2.721s] Installing simple_controller script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[2.721s] Installing simple_parameter script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[2.721s] Installing simple_publisher script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[2.721s] Installing simple_service_client script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[2.721s] Installing simple_service_server script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[2.721s] Installing simple_subscriber script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[2.721s] Installing simple_tf_kinematics script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[2.721s] Installing simple_turtlesim_kinematics script to /home/uditr/mybot_ws/install/mybot_py_programs/lib/mybot_py_programs
+[2.721s] writing list of installed files to '/home/uditr/mybot_ws/build/mybot_py_programs/install.log'
+[2.745s] Invoked command in '/home/uditr/mybot_ws/src/mybot_py_programs' returned '0': AMENT_PREFIX_PATH=/home/uditr/mybot_ws/install/mybot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uditr/mybot_ws/install/mybot_msgs LD_LIBRARY_PATH=/home/uditr/mybot_ws/install/mybot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:/home/uditr/mybot_ws/install/mybot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_py_programs build --build-base /home/uditr/mybot_ws/build/mybot_py_programs/build install --record /home/uditr/mybot_ws/build/mybot_py_programs/install.log --single-version-externally-managed install_data

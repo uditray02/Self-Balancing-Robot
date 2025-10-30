@@ -1,0 +1,9 @@
+setup.py
+mybot_msgs/__init__.py
+mybot_msgs.egg-info/PKG-INFO
+mybot_msgs.egg-info/SOURCES.txt
+mybot_msgs.egg-info/dependency_links.txt
+mybot_msgs.egg-info/top_level.txt
+mybot_msgs/srv/__init__.py
+mybot_msgs/srv/_add_two_ints.py
+mybot_msgs/srv/_get_transform.py

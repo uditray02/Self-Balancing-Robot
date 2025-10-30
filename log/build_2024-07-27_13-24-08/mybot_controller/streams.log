@@ -1,0 +1,9 @@
+[0.020s] Invoking command in '/home/uditr/mybot_ws/build/mybot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_controller -- -j8 -l8
+[0.069s] Built target ament_cmake_python_symlink_mybot_controller
+[0.314s] running egg_info
+[0.314s] writing mybot_controller.egg-info/PKG-INFO
+[0.314s] writing dependency_links to mybot_controller.egg-info/dependency_links.txt
+[0.315s] writing top-level names to mybot_controller.egg-info/top_level.txt
+[0.316s] reading manifest file 'mybot_controller.egg-info/SOURCES.txt'
+[0.317s] writing manifest file 'mybot_controller.egg-info/SOURCES.txt'
+[0.343s] Built target ament_cmake_python_build_mybot_controller_egg

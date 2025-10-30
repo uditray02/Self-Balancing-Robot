@@ -1,0 +1,323 @@
+[4.553s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.553s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77de45b3e260>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77de45b3dd20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77de45b3dd20>>)
+[11.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[11.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[11.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[11.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[11.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[11.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[11.402s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/uditr/mybot_ws'
+[11.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[11.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[11.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[11.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[11.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[11.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[11.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[11.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[11.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[11.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[11.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[11.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[11.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[11.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[11.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[11.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[11.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[11.479s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[11.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[11.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[11.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[11.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[11.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[11.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[11.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[11.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[11.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[11.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[11.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[11.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[11.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[11.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[11.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[11.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[11.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[11.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[11.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[11.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[11.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[11.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[11.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[11.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[11.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_controller) by extensions ['ignore', 'ignore_ament_install']
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_controller) by extension 'ignore'
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_controller) by extension 'ignore_ament_install'
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_controller) by extensions ['colcon_pkg']
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_controller) by extension 'colcon_pkg'
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_controller) by extensions ['colcon_meta']
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_controller) by extension 'colcon_meta'
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_controller) by extensions ['ros']
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_controller) by extension 'ros'
+[11.541s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mybot_controller' with type 'ros.ament_cmake' and name 'mybot_controller'
+[11.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_cpp_programs) by extensions ['ignore', 'ignore_ament_install']
+[11.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_cpp_programs) by extension 'ignore'
+[11.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_cpp_programs) by extension 'ignore_ament_install'
+[11.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_cpp_programs) by extensions ['colcon_pkg']
+[11.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_cpp_programs) by extension 'colcon_pkg'
+[11.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_cpp_programs) by extensions ['colcon_meta']
+[11.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_cpp_programs) by extension 'colcon_meta'
+[11.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_cpp_programs) by extensions ['ros']
+[11.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_cpp_programs) by extension 'ros'
+[11.557s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mybot_cpp_programs' with type 'ros.ament_cmake' and name 'mybot_cpp_programs'
+[11.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extensions ['ignore', 'ignore_ament_install']
+[11.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extension 'ignore'
+[11.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extension 'ignore_ament_install'
+[11.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extensions ['colcon_pkg']
+[11.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extension 'colcon_pkg'
+[11.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extensions ['colcon_meta']
+[11.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extension 'colcon_meta'
+[11.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extensions ['ros']
+[11.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extension 'ros'
+[11.577s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mybot_description' with type 'ros.ament_cmake' and name 'mybot_description'
+[11.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_py_programs) by extensions ['ignore', 'ignore_ament_install']
+[11.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_py_programs) by extension 'ignore'
+[11.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_py_programs) by extension 'ignore_ament_install'
+[11.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_py_programs) by extensions ['colcon_pkg']
+[11.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_py_programs) by extension 'colcon_pkg'
+[11.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_py_programs) by extensions ['colcon_meta']
+[11.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_py_programs) by extension 'colcon_meta'
+[11.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_py_programs) by extensions ['ros']
+[11.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_py_programs) by extension 'ros'
+[11.594s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mybot_py_programs' with type 'ros.ament_python' and name 'mybot_py_programs'
+[11.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[11.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[11.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[11.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[11.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[11.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[11.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[11.899s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 450 installed packages in /opt/ros/humble
+[11.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_controller' build argument 'cmake_args' from command line to 'None'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_controller' build argument 'cmake_target' from command line to 'None'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.949s] DEBUG:colcon.colcon_core.verb:Building package 'mybot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uditr/mybot_ws/build/mybot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uditr/mybot_ws/install/mybot_controller', 'merge_install': False, 'path': '/home/uditr/mybot_ws/src/mybot_controller', 'symlink_install': False, 'test_result_base': None}
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_cpp_programs' build argument 'cmake_args' from command line to 'None'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_cpp_programs' build argument 'cmake_target' from command line to 'None'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_cpp_programs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_cpp_programs' build argument 'cmake_clean_cache' from command line to 'False'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_cpp_programs' build argument 'cmake_clean_first' from command line to 'False'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_cpp_programs' build argument 'cmake_force_configure' from command line to 'False'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_cpp_programs' build argument 'ament_cmake_args' from command line to 'None'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_cpp_programs' build argument 'catkin_cmake_args' from command line to 'None'
+[11.949s] Level 5:colcon.colcon_core.verb:set package 'mybot_cpp_programs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.949s] DEBUG:colcon.colcon_core.verb:Building package 'mybot_cpp_programs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uditr/mybot_ws/build/mybot_cpp_programs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uditr/mybot_ws/install/mybot_cpp_programs', 'merge_install': False, 'path': '/home/uditr/mybot_ws/src/mybot_cpp_programs', 'symlink_install': False, 'test_result_base': None}
+[11.950s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'cmake_args' from command line to 'None'
+[11.950s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'cmake_target' from command line to 'None'
+[11.950s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.950s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[11.950s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'cmake_clean_first' from command line to 'False'
+[11.950s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'cmake_force_configure' from command line to 'False'
+[11.950s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'ament_cmake_args' from command line to 'None'
+[11.950s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[11.950s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.950s] DEBUG:colcon.colcon_core.verb:Building package 'mybot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uditr/mybot_ws/build/mybot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uditr/mybot_ws/install/mybot_description', 'merge_install': False, 'path': '/home/uditr/mybot_ws/src/mybot_description', 'symlink_install': False, 'test_result_base': None}
+[11.951s] Level 5:colcon.colcon_core.verb:set package 'mybot_py_programs' build argument 'cmake_args' from command line to 'None'
+[11.951s] Level 5:colcon.colcon_core.verb:set package 'mybot_py_programs' build argument 'cmake_target' from command line to 'None'
+[11.951s] Level 5:colcon.colcon_core.verb:set package 'mybot_py_programs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.951s] Level 5:colcon.colcon_core.verb:set package 'mybot_py_programs' build argument 'cmake_clean_cache' from command line to 'False'
+[11.951s] Level 5:colcon.colcon_core.verb:set package 'mybot_py_programs' build argument 'cmake_clean_first' from command line to 'False'
+[11.951s] Level 5:colcon.colcon_core.verb:set package 'mybot_py_programs' build argument 'cmake_force_configure' from command line to 'False'
+[11.951s] Level 5:colcon.colcon_core.verb:set package 'mybot_py_programs' build argument 'ament_cmake_args' from command line to 'None'
+[11.951s] Level 5:colcon.colcon_core.verb:set package 'mybot_py_programs' build argument 'catkin_cmake_args' from command line to 'None'
+[11.951s] Level 5:colcon.colcon_core.verb:set package 'mybot_py_programs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.951s] DEBUG:colcon.colcon_core.verb:Building package 'mybot_py_programs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uditr/mybot_ws/build/mybot_py_programs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uditr/mybot_ws/install/mybot_py_programs', 'merge_install': False, 'path': '/home/uditr/mybot_ws/src/mybot_py_programs', 'symlink_install': False, 'test_result_base': None}
+[11.952s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[11.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[11.953s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uditr/mybot_ws/src/mybot_controller' with build type 'ament_cmake'
+[11.953s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uditr/mybot_ws/src/mybot_controller'
+[11.963s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[11.964s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.964s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.006s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uditr/mybot_ws/src/mybot_cpp_programs' with build type 'ament_cmake'
+[12.006s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uditr/mybot_ws/src/mybot_cpp_programs'
+[12.006s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.053s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uditr/mybot_ws/src/mybot_description' with build type 'ament_cmake'
+[12.054s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uditr/mybot_ws/src/mybot_description'
+[12.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.061s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/uditr/mybot_ws/src/mybot_py_programs' with build type 'ament_python'
+[12.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot_py_programs', 'ament_prefix_path')
+[12.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_py_programs/share/mybot_py_programs/hook/ament_prefix_path.ps1'
+[12.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uditr/mybot_ws/install/mybot_py_programs/share/mybot_py_programs/hook/ament_prefix_path.dsv'
+[12.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_py_programs/share/mybot_py_programs/hook/ament_prefix_path.sh'
+[12.068s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.068s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uditr/mybot_ws/build/mybot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_controller -- -j8 -l8
+[12.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uditr/mybot_ws/build/mybot_cpp_programs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_cpp_programs -- -j8 -l8
+[12.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uditr/mybot_ws/build/mybot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_description -- -j8 -l8
+[12.563s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/uditr/mybot_ws/src/mybot_py_programs'
+[12.563s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.563s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uditr/mybot_ws/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_description -- -j8 -l8
+[13.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uditr/mybot_ws/build/mybot_cpp_programs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_cpp_programs -- -j8 -l8
+[13.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uditr/mybot_ws/build/mybot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_description
+[13.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uditr/mybot_ws/build/mybot_cpp_programs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_cpp_programs
+[14.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybot_cpp_programs)
+[14.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uditr/mybot_ws/build/mybot_cpp_programs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_cpp_programs
+[14.208s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_cpp_programs' for CMake module files
+[14.213s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_cpp_programs' for CMake config files
+[14.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot_cpp_programs', 'cmake_prefix_path')
+[14.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/hook/cmake_prefix_path.ps1'
+[14.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/hook/cmake_prefix_path.dsv'
+[14.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/hook/cmake_prefix_path.sh'
+[14.315s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_cpp_programs/bin'
+[14.315s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_cpp_programs/lib/pkgconfig/mybot_cpp_programs.pc'
+[14.315s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_cpp_programs/lib/python3.10/site-packages'
+[14.315s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_cpp_programs/bin'
+[14.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.ps1'
+[14.384s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.dsv'
+[14.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.sh'
+[14.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.bash'
+[14.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.zsh'
+[14.649s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uditr/mybot_ws/install/mybot_cpp_programs/share/colcon-core/packages/mybot_cpp_programs)
+[14.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybot_cpp_programs)
+[14.758s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_cpp_programs' for CMake module files
+[14.758s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_cpp_programs' for CMake config files
+[14.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot_cpp_programs', 'cmake_prefix_path')
+[14.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/hook/cmake_prefix_path.ps1'
+[14.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/hook/cmake_prefix_path.dsv'
+[14.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/hook/cmake_prefix_path.sh'
+[14.760s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_cpp_programs/bin'
+[14.760s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_cpp_programs/lib/pkgconfig/mybot_cpp_programs.pc'
+[14.760s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_cpp_programs/lib/python3.10/site-packages'
+[14.760s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_cpp_programs/bin'
+[14.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.ps1'
+[14.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.dsv'
+[14.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.sh'
+[14.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.bash'
+[14.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_cpp_programs/share/mybot_cpp_programs/package.zsh'
+[14.762s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uditr/mybot_ws/install/mybot_cpp_programs/share/colcon-core/packages/mybot_cpp_programs)
+[14.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uditr/mybot_ws/build/mybot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uditr/mybot_ws/build/mybot_controller -- -j8 -l8
+[14.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uditr/mybot_ws/build/mybot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_controller
+[14.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybot_description)
+[14.954s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_description' for CMake module files
+[14.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uditr/mybot_ws/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_description
+[14.956s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_description' for CMake config files
+[14.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot_description', 'cmake_prefix_path')
+[14.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/hook/cmake_prefix_path.ps1'
+[14.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/hook/cmake_prefix_path.dsv'
+[14.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/hook/cmake_prefix_path.sh'
+[14.961s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_description/bin'
+[14.961s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_description/lib/pkgconfig/mybot_description.pc'
+[14.961s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_description/lib/python3.10/site-packages'
+[14.961s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_description/bin'
+[14.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.ps1'
+[14.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.dsv'
+[14.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.sh'
+[14.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.bash'
+[14.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.zsh'
+[14.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uditr/mybot_ws/install/mybot_description/share/colcon-core/packages/mybot_description)
+[14.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybot_description)
+[14.982s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_description' for CMake module files
+[14.982s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_description' for CMake config files
+[14.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot_description', 'cmake_prefix_path')
+[14.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/hook/cmake_prefix_path.ps1'
+[14.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/hook/cmake_prefix_path.dsv'
+[14.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/hook/cmake_prefix_path.sh'
+[14.984s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_description/bin'
+[14.984s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_description/lib/pkgconfig/mybot_description.pc'
+[14.984s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_description/lib/python3.10/site-packages'
+[14.984s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_description/bin'
+[14.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.ps1'
+[14.984s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.dsv'
+[14.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.sh'
+[14.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.bash'
+[14.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_description/share/mybot_description/package.zsh'
+[14.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uditr/mybot_ws/install/mybot_description/share/colcon-core/packages/mybot_description)
+[15.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybot_controller)
+[15.210s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_controller' for CMake module files
+[15.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uditr/mybot_ws/build/mybot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uditr/mybot_ws/build/mybot_controller
+[15.211s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_controller' for CMake config files
+[15.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot_controller', 'cmake_prefix_path')
+[15.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/hook/cmake_prefix_path.ps1'
+[15.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/hook/cmake_prefix_path.dsv'
+[15.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/hook/cmake_prefix_path.sh'
+[15.214s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_controller/lib'
+[15.214s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_controller/bin'
+[15.214s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_controller/lib/pkgconfig/mybot_controller.pc'
+[15.214s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_controller/lib/python3.10/site-packages'
+[15.214s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_controller/bin'
+[15.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.ps1'
+[15.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.dsv'
+[15.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.sh'
+[15.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.bash'
+[15.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.zsh'
+[15.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uditr/mybot_ws/install/mybot_controller/share/colcon-core/packages/mybot_controller)
+[15.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybot_controller)
+[15.235s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_controller' for CMake module files
+[15.235s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_controller' for CMake config files
+[15.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot_controller', 'cmake_prefix_path')
+[15.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/hook/cmake_prefix_path.ps1'
+[15.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/hook/cmake_prefix_path.dsv'
+[15.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/hook/cmake_prefix_path.sh'
+[15.237s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_controller/lib'
+[15.238s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_controller/bin'
+[15.238s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_controller/lib/pkgconfig/mybot_controller.pc'
+[15.238s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_controller/lib/python3.10/site-packages'
+[15.238s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_controller/bin'
+[15.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.ps1'
+[15.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.dsv'
+[15.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.sh'
+[15.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.bash'
+[15.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_controller/share/mybot_controller/package.zsh'
+[15.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uditr/mybot_ws/install/mybot_controller/share/colcon-core/packages/mybot_controller)
+[15.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uditr/mybot_ws/src/mybot_py_programs': PYTHONPATH=/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_py_programs build --build-base /home/uditr/mybot_ws/build/mybot_py_programs/build install --record /home/uditr/mybot_ws/build/mybot_py_programs/install.log --single-version-externally-managed install_data
+[15.957s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_py_programs' for CMake module files
+[15.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uditr/mybot_ws/src/mybot_py_programs' returned '0': PYTHONPATH=/home/uditr/mybot_ws/build/mybot_py_programs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_py_programs build --build-base /home/uditr/mybot_ws/build/mybot_py_programs/build install --record /home/uditr/mybot_ws/build/mybot_py_programs/install.log --single-version-externally-managed install_data
+[15.958s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_py_programs' for CMake config files
+[15.959s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_py_programs/lib'
+[15.959s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_py_programs/bin'
+[15.959s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_py_programs/lib/pkgconfig/mybot_py_programs.pc'
+[15.959s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_py_programs/lib/python3.10/site-packages'
+[15.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot_py_programs', 'pythonpath')
+[15.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_py_programs/share/mybot_py_programs/hook/pythonpath.ps1'
+[15.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uditr/mybot_ws/install/mybot_py_programs/share/mybot_py_programs/hook/pythonpath.dsv'
+[15.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uditr/mybot_ws/install/mybot_py_programs/share/mybot_py_programs/hook/pythonpath.sh'
+[15.960s] Level 1:colcon.colcon_core.environment:checking '/home/uditr/mybot_ws/install/mybot_py_programs/bin'
+[15.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybot_py_programs)
+[15.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_py_programs/share/mybot_py_programs/package.ps1'
+[15.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uditr/mybot_ws/install/mybot_py_programs/share/mybot_py_programs/package.dsv'
+[15.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_py_programs/share/mybot_py_programs/package.sh'
+[15.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_py_programs/share/mybot_py_programs/package.bash'
+[15.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/uditr/mybot_ws/install/mybot_py_programs/share/mybot_py_programs/package.zsh'
+[15.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uditr/mybot_ws/install/mybot_py_programs/share/colcon-core/packages/mybot_py_programs)
+[15.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.963s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.963s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.963s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.063s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.217s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.218s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uditr/mybot_ws/install/local_setup.ps1'
+[16.235s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/uditr/mybot_ws/install/_local_setup_util_ps1.py'
+[16.247s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uditr/mybot_ws/install/setup.ps1'
+[16.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uditr/mybot_ws/install/local_setup.sh'
+[16.268s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/uditr/mybot_ws/install/_local_setup_util_sh.py'
+[16.269s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uditr/mybot_ws/install/setup.sh'
+[16.280s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uditr/mybot_ws/install/local_setup.bash'
+[16.291s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uditr/mybot_ws/install/setup.bash'
+[16.301s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uditr/mybot_ws/install/local_setup.zsh'
+[16.312s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uditr/mybot_ws/install/setup.zsh'
